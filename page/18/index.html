@@ -1,24 +1,25 @@
-<!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en"> <!--<![endif]-->
+<html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Set the viewport width to device width for mobile -->
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>        Tyler Butler
 </title>
 
                     
-    <link rel="alternate" type="application/rss+xml"
-          title="Tyler Butler RSS Feed"
+    <link rel="alternate" type="application/atom+xml"
+          title="Tyler Butler Atom Feed"
           href="http://feeds.feedburner.com/TylerButlerAllPosts"/>
 
+                
                                                         <link rel="stylesheet"
                       href="/static/engineer/lib/foundation/stylesheets/grid.css">
                 <link rel="stylesheet"
@@ -35,11 +36,12 @@
                 
                                     
             <script type="text/javascript"
-            src="http://use.typekit.com/vty2qol.js"></script>
+            src="http://use.typekit.net/vty2qol.js"></script>
     <script type="text/javascript">
         try {
             Typekit.load();
-        } catch (e) {
+        }
+        catch (e) {
         }
     </script>
     
@@ -59,50 +61,197 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>    
-                
+                        <script src="/static/engineer/lib/modernizr-2.6.2.min.js"
+                    type="text/javascript"></script>
+            
             <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
             <script>
-                window.jQuery || document.write('<script src="/static/engineer/lib/jquery-1.7.1.min.js"><\/script>')
+                window.jQuery || document.write('<script src="/static/engineer/lib/jquery-1.10.2.min.js"><\/script>')
             </script>    
-                                        <script type="text/javascript" src="/static/engineer/lib/tweet/tweet/jquery.tweet.js"></script>
-                <script type='text/javascript'>
-                    jQuery(function ($) {
-                        $(".tweet").tweet({
-                            username:'tylerbutler',
-                            join_text:null,
-                            avatar_size:null,
-                            retweets:false,
-                            count:4,
-                            loading_text:"loading tweets...",
-                            template:"{text}{time}"
-                        });
-                    });
-                </script>
-                        
-    <!-- IE Fix for HTML5 Tags -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body class="">    <div class="container">        <header id="primary" class="row">                                    <h1 class="five columns">
-                        <a href="/">tyler
-                                <span class="highlight">butler</span>
-                            </a>
-                    </h1>
-                                            <nav class="seven columns">                        
-<ul>
-                    <li class="current">
+<body class=""><!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->    <div class="container">            <header id="primary" class="row">                                            <h1 class="five columns">
+                            <a href="/">                                    tyler
+                                    <span class="highlight">butler</span>
+                                </a>
+                        </h1>
+                                                        <nav class="seven columns">                            <ul class="nav navbar-nav">
+    
+                <li class="current">
         <a href="/">articles</a></li>
-                    <li>
+                <li>
         <a href="/projects">projects</a></li>
-    </ul>
+</ul>
 
-                    </nav>
-            </header>
-        <div class="row">            <section id="main" class="nine columns"
-                     role="main">    <div class="posts">
+                        </nav>
+                </header>
+            <div class="row">                <section id="main" class="nine columns"
+                         role="main">    <div class="posts">
                                     <div class="row">
+            <div class="post-info two columns">
+            <div class="post-date">
+                                    <div class="month">APR</div>
+                    <div class="day">30</div>
+                    <div class="year">2007</div>
+                    <div class="permalink">
+                        <a href="/2007/04/net-browser-integration-demos/"
+                           title="Permanent link to '.Net Browser Integration Demos'">∞</a>
+                    </div>
+                            </div>
+                                        <ul class="tags">
+                                            <li><a href="/tag/mix07">mix07</a>
+                        </li>
+                                    </ul>
+                    </div>
+                            <article class="post-content ten columns">
+                <time datetime="2007-04-30 PDT"
+                      pubdate=""></time>
+                <header>
+                    <h1>
+                        <a href="        /2007/04/net-browser-integration-demos/">.Net Browser Integration Demos</a>
+                                            </h1>
+                </header>
+                                    <p>To expand on my post from earlier about .Net in the browser, here&#8217;s some of
+the more salient points from the demos that Scott Guthrie et. al.&nbsp;showed:</p>
+<p><strong>Debugging in both Windows and&nbsp;Mac</strong></p>
+<p>Yup, you can attach to a remote process running on the Mac, and step into
+breakpoints in your managed code locally in <span class="caps">VS</span>. This must have been <em>really</em>
+hard to build. Nonetheless, this is super&nbsp;useful.</p>
+<p><strong>Code behind for Silverlight&nbsp;projects </strong></p>
+<p>This is basically how you get your .Net code in the browser. As far as I can
+tell, your <span class="caps">XAML</span> has an associated code-behind page that contains all of your
+code, as in pretty much all of&nbsp;<span class="caps">ASP</span>.Net</p>
+<p><strong>Integration between Expression and <span class="caps">VS</span> for inserting <span class="caps">XAML</span> into the Silverlight project from&nbsp;Expression </strong></p>
+<p>You can easily use the best app for the specific job. Designers can crack open
+the <span class="caps">XAML</span> in Expression and munge it, then developers can live in <span class="caps">VS</span> and just
+write the code. Everybody&nbsp;wins.</p>
+<p><strong>Add Silverlight projects to <span class="caps">ASP</span>.Net projects, get them built and deployed&nbsp;together </strong></p>
+<p>Silverlight controls can be just like regular .Net controls, and get built as
+part of the same development workflow.&nbsp;Sweeeeeet&#8230;</p>
+<p><a href="http://silverlight.metaliq.com/topbanana/"><strong>http://silverlight.metaliq.com/topbanana/</strong></a>**</p>
+<p>Really nifty light table app completely in the browser built in C# and <span class="caps">XAML</span>
+and delivered via Silverlight. Apparently this will be a sample app that will
+be part of the <span class="caps">SDK</span> or something, which is pretty sweet. I was hoping it&#8217;d be
+live so everyone could play, but it&#8217;s not. Built in a month with alpha
+Silverlight 1.1&nbsp;code.</p>
+                                                            </article>
+            </div>                                                <div class="row">
+            <div class="post-info two columns">
+            <div class="post-date">
+                                    <div class="month">APR</div>
+                    <div class="day">30</div>
+                    <div class="year">2007</div>
+                    <div class="permalink">
+                        <a href="/2007/04/net-in-the-browser/"
+                           title="Permanent link to '.Net in the Browser'">∞</a>
+                    </div>
+                            </div>
+                                        <ul class="tags">
+                                            <li><a href="/tag/mix07">mix07</a>
+                        </li>
+                                    </ul>
+                    </div>
+                            <article class="post-content ten columns">
+                <time datetime="2007-04-30 PDT"
+                      pubdate=""></time>
+                <header>
+                    <h1>
+                        <a href="        /2007/04/net-in-the-browser/">.Net in the Browser</a>
+                                            </h1>
+                </header>
+                                    <p>Wahoo, .Net in the browser just announced with integration in Silverlight. The
+crowd goes&nbsp;wild&#8230;</p>
+                                                            </article>
+            </div>                                                <div class="row">
+            <div class="post-info two columns">
+            <div class="post-date">
+                                    <div class="month">APR</div>
+                    <div class="day">30</div>
+                    <div class="year">2007</div>
+                    <div class="permalink">
+                        <a href="/2007/04/at-mix/"
+                           title="Permanent link to 'At MIX!'">∞</a>
+                    </div>
+                            </div>
+                                        <ul class="tags">
+                                            <li><a href="/tag/mix07">mix07</a>
+                        </li>
+                                    </ul>
+                    </div>
+                            <article class="post-content ten columns">
+                <time datetime="2007-04-30 PDT"
+                      pubdate=""></time>
+                <header>
+                    <h1>
+                        <a href="        /2007/04/at-mix/">At <span class="caps">MIX</span>!</a>
+                                            </h1>
+                </header>
+                                    <p>I&#8217;m at <span class="caps">MIX</span>! Got in late last night. Wow, Vegas is nuts. So gaudy &#8211; lights,
+sounds, smells everywhere. It&#8217;s pretty overwhelming. The Venetian is
+fantastically humongous. I have to walk a mile from my room to the part of the
+hotel where <span class="caps">MIX</span> is actually taking place. First time in a 5-star hotel for me,
+so I am&nbsp;pleased.</p>
+<p>Right now I am sitting in the keynote session waiting for it to get started at
+9:30 <span class="caps">PST</span>. There&#8217;s a pretty cool &#8220;screen saver&#8221; thing that is loading live
+<a href="http://twitter.com/">Twitter</a> comments from <span class="caps">MIX</span> attendees and displaying them on the screen in
+real-time. Pretty cool. Not a big Twitter fan myself, but it&#8217;s certainly being
+used in interesting ways here at&nbsp;<span class="caps">MIX</span>.</p>
+<p>There&#8217;s a three piece band playing with an accordion, violin, upright bass,
+and assorted other instruments. One attendee described it as a love child
+between Tom Waits and Oingo Boingo. Did I just hear a glockenspiel? A freakin&#8217;
+Theremin too?&nbsp;Fantastic…</p>
+<p>Well, keynote should start shortly… More coming&nbsp;up&#8230;</p>
+                                                            </article>
+            </div>                                                <div class="row">
+            <div class="post-info two columns">
+            <div class="post-date">
+                                    <div class="month">APR</div>
+                    <div class="day">05</div>
+                    <div class="year">2007</div>
+                    <div class="permalink">
+                        <a href="/2007/04/speaking-at-mix/"
+                           title="Permanent link to 'Speaking at MIX'">∞</a>
+                    </div>
+                            </div>
+                                        <ul class="tags">
+                                            <li><a href="/tag/mix07">mix07</a>
+                        </li>
+                                    </ul>
+                    </div>
+                            <article class="post-content ten columns">
+                <time datetime="2007-04-05 PDT"
+                      pubdate=""></time>
+                <header>
+                    <h1>
+                        <a href="        /2007/04/speaking-at-mix/">Speaking at <span class="caps">MIX</span></a>
+                                            </h1>
+                </header>
+                                    <p>Exciting news! My session for <a href="http://www.visitmix.com/"><span class="caps">MIX</span> &#8216;07</a> was approved, so it looks like I&#8217;ll
+be in Vegas at the end of the month. Unfortunately, it&#8217;s sold out, so if
+you&#8217;re not already registered, you&#8217;re unfortunately out of luck as far as I
+can tell. However, I&#8217;m told all sessions will be recorded and available on the
+web for everyone to see as early as the day after the session, so I&#8217;ll post a
+link to it here for those who are interested. <a href="http://www.visitmix.com/"><img alt="MIX" src="http://www.visitmix.com/downloads/bling/bubble_blue.gif" /></a></p>
+<p>The title of the session is &#8220;Internet Sites with Microsoft Office SharePoint
+Server 2007,&#8221; which is sufficiently broad that there should be plenty to talk
+about. Do you have specific things you&#8217;re interested in learning about, or
+that you think I should talk about in my session? Feel free to [drop me a
+line][4] and let me know. I&#8217;ll also be at the <span class="caps">MIX</span> Chat on Wednesday afternoon,
+so swing by and say&nbsp;hello.</p>
+<p>And if you want to see some particularly poor yet frenetic dancing, join me at
+<span class="caps">PURE</span> on Tuesday night. Believe me, there&#8217;s nothing quite like a Microsoft
+Program Manager out on the dance&nbsp;floor&#8230;</p>
+<p>[4]: mailto:tyler.butler@microsoft.com?subject=What I want to learn at your <span class="caps">MIX</span>&nbsp;session</p>
+                                                            </article>
+            </div>                                                <div class="row">
             <div class="post-info two columns">
             <div class="post-date">
                                     <div class="month">FEB</div>
@@ -160,214 +309,6 @@ part inside a zone, but I&#8217;ve heard reports that the property gets reset ev
 time you change properties on the web part in the browser, which you can&#8217;t do
 for parts that live outside&nbsp;zones.</p>
                                                             </article>
-            </div>                                                <div class="row">
-            <div class="post-info two columns">
-            <div class="post-date">
-                                    <div class="month">FEB</div>
-                    <div class="day">02</div>
-                    <div class="year">2007</div>
-                    <div class="permalink">
-                        <a href="/2007/02/building-moss-master-pages/"
-                           title="Permanent link to 'Building MOSS Master Pages'">∞</a>
-                    </div>
-                            </div>
-                                        <ul class="tags">
-                                            <li><a href="/tag/sharepoint">sharepoint</a>
-                        </li>
-                                    </ul>
-                    </div>
-                            <article class="post-content ten columns">
-                <time datetime="2007-02-02 PST"
-                      pubdate=""></time>
-                <header>
-                    <h1>
-                        <a href="        /2007/02/building-moss-master-pages/">Building <span class="caps">MOSS</span> Master Pages</a>
-                                            </h1>
-                </header>
-                                    <p>Now that <span class="caps">MOSS</span> is available to lots of people, and people are building lots of
-sites that <a href="http://www.fifteen.net">don&#8217;t</a> <a href="http://www.shareview.co.uk/">look</a> <a href="http://www.hedkandi.com/">like</a> SharePoint, a lot of you might be
-wondering how you should get started in building your own custom master page
-for your site. I talked a little bit about this in my first post on building
-tylerbutler.com, but I think it might be valuable to post some info about the
-minimal master page and its role in helping you build a custom master page for
-your site. But first, some&nbsp;background…</p>
-<p>During the early betas, people heard that you could make SharePoint &#8220;not look
-like SharePoint,&#8221; and so they set off to do just that. People started cracking
-open default.master and trying to understand it. The problem many people
-reported was that the markup in default.master was ridiculously complicated,
-and it wasn&#8217;t clear what could be removed and what couldn&#8217;t. The complexity is
-somewhat necessary for that master page because of all the delegate controls
-we have to put in place to support a bunch of different back-end SharePoint
-stuff (I do believe, however, that there&#8217;s plenty of things we could/can do in
-that master page to make it clearer and easier to customize without removing
-functionality, so this is not meant to be an&nbsp;excuse).</p>
-<p>Anyway, there were customers that were trying to build internet facing sites
-on top of SharePoint, because <strong>a)</strong> we told them that they could/should and
-<strong>b)</strong> we rolled up a lot of web content management functionality from Content
-Management Server 2002, and customers that were using that product were
-investigating how they would move to <span class="caps">MOSS</span>. These customers did not want their
-site to look anything like SharePoint. These customers also often had a site
-design template that was coming from their design team, either in <span class="caps">HTML</span> or as
-image mock-ups. Trying to fit that design into default.master was exceedingly
-difficult because of all the unclear markup in that master page.
-Default.master is designed for a SharePoint site – one that looks and acts
-like SharePoint. But people who wanted to build non-SharePoint looking sites
-were getting tripped up by using it as a starting&nbsp;point.</p>
-<p>We do have several master pages that we built that are much simpler than
-default.master. When you provision a Publishing Portal site collection, for
-example, we default to BlueBand.master, which has customized <span class="caps">CSS</span> and <span class="caps">MOSS</span>
-navigation out of the box. It&#8217;s a cleaner starting point, so we initially told
-people to start there rather than with default.master. We still had problems,
-though, because you never knew if a placeholder was absolutely necessary in
-your master page. What would happen is you&#8217;d remove a seemingly innocuous
-placeholder and your page would work fine until you browsed to some specific
-page that was overriding that placeholder, then things would&nbsp;break.</p>
-<p>What we needed was a sample master page that included only the markup that was
-<em>absolutely necessary to get your pages to render.</em> Thus, the <a href="http://msdn2.microsoft.com/en-us/library/aa660698.aspx">minimal master
-page</a> was born. This master page is purposely bare. It&#8217;s just a bunch of
-placeholders – those placeholders are necessary for things in your site to
-work properly. With this master page, you can take your markup from your
-designer, paste it into SharePoint Designer, and move markups into the
-appropriate placeholders. If there&#8217;s some pieces you need/want from
-default.master or another page, you can always open them up and copy/paste the
-appropriate&nbsp;markup.</p>
-<p>So, should you start with <code>default.master</code>, <code>blueband.master</code>, or the minimal
-master page example when building your own custom master page? Well, the
-answer depends on what you&#8217;re trying to do. If you&#8217;re building out a site that
-really should look and work like vanilla SharePoint, then maybe <code>default.master</code>
-makes sense. If you&#8217;re trying to do something more exotic, <code>blueband.master</code> and
-its siblings have examples of different navigational structures and color
-schemes, so maybe it makes sense to start from one of those that is close to
-the navigation/color you&#8217;re aiming for. But my personal recommendation is to
-start with the minimal page and copy/paste the appropriate controls/markup
-from other master pages as necessary. This ensures you get only what you need
-and want in your page, rather than having to weed through a bunch of markup to
-get rid of stuff that doesn&#8217;t <em>look</em> like it&#8217;s needed. If you do want to go
-the default.master route, then Heather Solomon has <a href="http://heathersolomon.com/blog/archive/2007/01/26/6153.aspx">a custom master page</a>
-that she&#8217;s tweaked from <code>default.master</code> to make things cleaner and more&nbsp;straightforward.</p>
-<p>I hope this helps you figure out how to get started building out your site
-look and feel. There is a growing number of live custom sites on top of <span class="caps">MOSS</span>,
-and it&#8217;s exciting to see what people are able to build with this&nbsp;product!</p>
-                                                            </article>
-            </div>                                                <div class="row">
-            <div class="post-info two columns">
-            <div class="post-date">
-                                    <div class="month">JAN</div>
-                    <div class="day">23</div>
-                    <div class="year">2007</div>
-                    <div class="permalink">
-                        <a href="/2007/01/hiding-vs-disabling/"
-                           title="Permanent link to 'Hiding vs. Disabling'">∞</a>
-                    </div>
-                            </div>
-                                        <ul class="tags">
-                                            <li><a href="/tag/design">design</a>
-                        </li>
-                                            <li><a href="/tag/sharepoint">sharepoint</a>
-                        </li>
-                                    </ul>
-                    </div>
-                            <article class="post-content ten columns">
-                <time datetime="2007-01-23 PST"
-                      pubdate=""></time>
-                <header>
-                    <h1>
-                        <a href="        /2007/01/hiding-vs-disabling/">Hiding vs. Disabling</a>
-                                            </h1>
-                </header>
-                                    <p>Someone came by my office today and asked me if I could show him how to make a
-column on a SharePoint list required. No problem! While this isn&#8217;t as simple
-as it could be, it&#8217;s pretty straightforward. Go into the list you want to
-change, select <strong>List Settings</strong> from the <strong>Settings</strong> drop down, then click
-the column you want to change in the <strong>List Settings</strong> page. You should see an
-option called &#8220;Require that this column contains information.&#8221; By default,
-this is off, but turning it on will make the column&nbsp;required.</p>
-<p>However, in this case, that option wasn&#8217;t showing in the <span class="caps">UI</span>. The reason was
-that the column was a <strong>Yes/No (check box)</strong> field. Now, if you think about
-it, this makes sense. A checkbox <em>always</em> has state, either checked or
-unchecked, so it&#8217;s by nature required. A user always has to fill in a checkbox
-with some data, either by checking it or unchecking it. It all comes down to
-the default state, which <em>is</em> settable in the SharePoint&nbsp;<span class="caps">UI</span>.</p>
-<p>The interesting thing here, though, is that the user didn&#8217;t stop to think
-about this. And that makes sense. He just wanted to make a column required; he
-didn&#8217;t think about what type of column it was. SharePoint totally removes the
-required field setting from the <span class="caps">UI</span> for Yes/No fields because it doesn&#8217;t make
-sense. However, the user got confused. He wasn&#8217;t sure if the <span class="caps">UI</span> was missing by
-design or if he wasn&#8217;t looking in the right spot for the setting. If you have
-a task to accomplish using relatively unfamiliar <span class="caps">UI</span>, you go to the place that
-makes sense to you, but you&#8217;re never sure you&#8217;re in the right place. In this
-case, the user poked around other parts of the <span class="caps">UI</span> before coming to me, because
-he thought he was looking in the wrong&nbsp;place.</p>
-<p>This might be alleviated by disabling (i.e. graying out) the part of the <span class="caps">UI</span>
-that is not applicable. This is somewhat clearer, because it says, &#8220;Yes, this
-is where you would change this setting, but it doesn&#8217;t make sense here or is
-not allowed.&#8221; This isn&#8217;t a hard rule. You can&#8217;t <em>always</em> display <em>all</em>
-possible settings in one piece of <span class="caps">UI</span> because if there are a large number of
-settings, things can get confusing and distracting. Some hiding does make
-sense in many cases. But it is worth some dedicated thought about your <span class="caps">UI</span> and
-what your users are trying to accomplish when deciding whether to hide a piece
-of <span class="caps">UI</span> or simply gray it&nbsp;out.</p>
-                                                            </article>
-            </div>                                                <div class="row">
-            <div class="post-info two columns">
-            <div class="post-date">
-                                    <div class="month">JAN</div>
-                    <div class="day">23</div>
-                    <div class="year">2007</div>
-                    <div class="permalink">
-                        <a href="/2007/01/site-problems/"
-                           title="Permanent link to 'Site Problems'">∞</a>
-                    </div>
-                            </div>
-                                </div>
-                            <article class="post-content ten columns">
-                <time datetime="2007-01-23 PST"
-                      pubdate=""></time>
-                <header>
-                    <h1>
-                        <a href="        /2007/01/site-problems/">Site Problems</a>
-                                            </h1>
-                </header>
-                                    <p>My site has been going up and down lately. It&#8217;s not a problem with <span class="caps">MOSS</span> or the
-server. Both have stayed up and running without any problems. Unfortunately,
-the environment that my server is in has been having problems with their
-switch. Apparently it&#8217;s rebooting itself constantly, which is &#8220;a common issue
-for this brand and model of router.&#8221; Anyway, no biggie, my site isn&#8217;t exactly
-mission-critical. But weekends are the best time for me to work on
-enhancements, and I have a few in mind that I was looking forward to getting
-set up. Alas, &#8216;twas not to be. Everything seems to be working now, though, so
-hopefully it&#8217;ll stay this&nbsp;way.</p>
-                                                            </article>
-            </div>                                                <div class="row">
-            <div class="post-info two columns">
-            <div class="post-date">
-                                    <div class="month">JAN</div>
-                    <div class="day">17</div>
-                    <div class="year">2007</div>
-                    <div class="permalink">
-                        <a href="/2007/01/acrobat-reader-8-sucks-less/"
-                           title="Permanent link to 'Acrobat Reader 8 Sucks Less'">∞</a>
-                    </div>
-                            </div>
-                                </div>
-                            <article class="post-content ten columns">
-                <time datetime="2007-01-17 PST"
-                      pubdate=""></time>
-                <header>
-                    <h1>
-                        <a href="        /2007/01/acrobat-reader-8-sucks-less/">Acrobat Reader 8 Sucks Less</a>
-                                            </h1>
-                </header>
-                                    <p>I upgraded to Acrobat Reader 8 last night because frankly, I figured it
-couldn&#8217;t get any crappier than 7. I was right. In fact, it got a bit better.
-The Yahoo toolbar and advertising bar across the top seem to be gone. The
-interface is simpler, too. It still has automatic updating on by default, of
-course, which I immediately turned off just in case the update feature sucks
-as much as it did in&nbsp;7.</p>
-<p>So it&#8217;s getting better. But even without Photoshop Album Starter Edition,
-which it tries to bundle with the download by default (freakin&#8217; annoying, by
-the way), it&#8217;s still <strong>20.8 <span class="caps">MB</span></strong>. My goodness, that&#8217;s&nbsp;bloated&#8230;</p>
-                                                            </article>
             </div>                        </div>
     <div class="row archives">
         <div class="twelve columns post-links">
@@ -385,7 +326,7 @@ the way), it&#8217;s still <strong>20.8 <span class="caps">MB</span></strong>. M
         </div>
     </div>
 </section>
-                    <section id="sidebar" class="three columns">                    <section>
+                            <section id="sidebar" class="three columns">                        <section>
     <div>
         <p>I'm <a href="/about">Tyler Butler</a>: a big man with small dogs.</p>
         <hr/>
@@ -401,7 +342,6 @@ the way), it&#8217;s still <strong>20.8 <span class="caps">MB</span></strong>. M
         <ul>
             <li><a href="http://twitter.com/tylerbutler">twitter</a></li>
             <li><a href="http://github.com/tylerbutler">github</a></li>
-            <li><a href="http://bitbucket.org/tylerbutler">bitbucket</a></li>
         </ul>
     </div>
 </section>
@@ -416,16 +356,13 @@ the way), it&#8217;s still <strong>20.8 <span class="caps">MB</span></strong>. M
             </form>
         </div>
     </section>
-            <section class="twitter">                <h1>Latest Tweets</h1>
-                <div class="tweet">
-                </div>
-            </section>
                     </section>
-        </div>
-    <div class="row">            <footer class="twelve columns centered">                    <p>&copy; 2002-2012 Tyler Butler. All rights reserved.</p>
+            </div>
+        <div class="row">                <footer class="twelve columns centered">                        <p>&copy; 2002-2013 Tyler Butler. All rights reserved.</p>
 
-<p>Powered by <a href="http://www.tylerbutler.com/projects/engineer">engineer</a>.</p>                </footer>
-        </div>
+<p>Powered by <a href="http://www.tylerbutler.com/projects/engineer">engineer</a>.</p>                    </footer>
+            </div>
+    </div>
                 <script src="/static/engineer/lib/foundation/javascripts/foundation.js"></script>
         
     

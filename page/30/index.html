@@ -1,24 +1,25 @@
-<!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en"> <!--<![endif]-->
+<html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Set the viewport width to device width for mobile -->
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>        Tyler Butler
 </title>
 
                     
-    <link rel="alternate" type="application/rss+xml"
-          title="Tyler Butler RSS Feed"
+    <link rel="alternate" type="application/atom+xml"
+          title="Tyler Butler Atom Feed"
           href="http://feeds.feedburner.com/TylerButlerAllPosts"/>
 
+                
                                                         <link rel="stylesheet"
                       href="/static/engineer/lib/foundation/stylesheets/grid.css">
                 <link rel="stylesheet"
@@ -35,11 +36,12 @@
                 
                                     
             <script type="text/javascript"
-            src="http://use.typekit.com/vty2qol.js"></script>
+            src="http://use.typekit.net/vty2qol.js"></script>
     <script type="text/javascript">
         try {
             Typekit.load();
-        } catch (e) {
+        }
+        catch (e) {
         }
     </script>
     
@@ -59,50 +61,905 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>    
-                
+                        <script src="/static/engineer/lib/modernizr-2.6.2.min.js"
+                    type="text/javascript"></script>
+            
             <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
             <script>
-                window.jQuery || document.write('<script src="/static/engineer/lib/jquery-1.7.1.min.js"><\/script>')
+                window.jQuery || document.write('<script src="/static/engineer/lib/jquery-1.10.2.min.js"><\/script>')
             </script>    
-                                        <script type="text/javascript" src="/static/engineer/lib/tweet/tweet/jquery.tweet.js"></script>
-                <script type='text/javascript'>
-                    jQuery(function ($) {
-                        $(".tweet").tweet({
-                            username:'tylerbutler',
-                            join_text:null,
-                            avatar_size:null,
-                            retweets:false,
-                            count:4,
-                            loading_text:"loading tweets...",
-                            template:"{text}{time}"
-                        });
-                    });
-                </script>
-                        
-    <!-- IE Fix for HTML5 Tags -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body class="">    <div class="container">        <header id="primary" class="row">                                    <h1 class="five columns">
-                        <a href="/">tyler
-                                <span class="highlight">butler</span>
-                            </a>
-                    </h1>
-                                            <nav class="seven columns">                        
-<ul>
-                    <li class="current">
+<body class=""><!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->    <div class="container">            <header id="primary" class="row">                                            <h1 class="five columns">
+                            <a href="/">                                    tyler
+                                    <span class="highlight">butler</span>
+                                </a>
+                        </h1>
+                                                        <nav class="seven columns">                            <ul class="nav navbar-nav">
+    
+                <li class="current">
         <a href="/">articles</a></li>
-                    <li>
+                <li>
         <a href="/projects">projects</a></li>
-    </ul>
+</ul>
 
-                    </nav>
-            </header>
-        <div class="row">            <section id="main" class="nine columns"
-                     role="main">    <div class="posts">
+                        </nav>
+                </header>
+            <div class="row">                <section id="main" class="nine columns"
+                         role="main">    <div class="posts">
                                     <div class="row">
+            <div class="post-info two columns">
+            <div class="post-date">
+                                    <div class="month">NOV</div>
+                    <div class="day">24</div>
+                    <div class="year">2004</div>
+                    <div class="permalink">
+                        <a href="/2004/11/november-23rd/"
+                           title="Permanent link to 'November 23rd'">∞</a>
+                    </div>
+                            </div>
+                                        <ul class="tags">
+                                            <li><a href="/tag/novel">novel</a>
+                        </li>
+                                            <li><a href="/tag/nanowrimo">nanowrimo</a>
+                        </li>
+                                    </ul>
+                    </div>
+                            <article class="post-content ten columns">
+                <time datetime="2004-11-24 PST"
+                      pubdate=""></time>
+                <header>
+                    <h1>
+                        <a href="        /2004/11/november-23rd/">November 23rd</a>
+                                            </h1>
+                </header>
+                                    <p><strong>Chapter 21: The&nbsp;Mark</strong></p>
+<p>Ames and Cobb were excited. Joel had been able to give them a description,
+albeit a rather poor one, but he&#8217;d also been able to give them a rough sketch
+of the tattoo the man had on his hand, and <em>that</em> was something that they
+could look&nbsp;into.</p>
+<p>They ignored the dagger-like stares of Joel&#8217;s parents as they stood up
+quickly, their movements taking on an almost frenzied speed, and rushed out of
+the room, murmuring thanks to Joel as they went. Joel was just glad to be rid
+of them. The pain had returned, and he was overcome with weakness again. Sleep
+overcame him as Karen wordlessly maneuvered the notebook from his hands and
+walked briskly out of the room, trying to catch up to Ames and&nbsp;Cobb.</p>
+<p>Ames had a feeling that he had seen the mark before, but he couldn&#8217;t
+remember where. Maybe if he looked at it again&#8230; Wait, where was the&nbsp;sketch?</p>
+<p>“Damn it, Cobb, we forgot the sketch.” They both turned and nearly bowled
+over a panting Karen, who thrust the note book at them. Cobb and Ames smiled.
+“Thanks Karen. See you back at the&nbsp;station.”</p>
+<p>They turned and continued out of the hospital and on to their car. Ames took
+the passenger seat and examined the sketch more closely as Cobb started the
+engine and headed out of the parking lot, turning towards the&nbsp;station.</p>
+<p>“Recognize something, Ames ? ” Cobb asked, amused at his partner&#8217;s look of
+complete perplexity as he peered at the&nbsp;sketch.</p>
+<p>Ames sighed and reluctantly moved his eyes away from the sketch. “I dunno.
+It looks so familiar.” He shook his head. “But I can&#8217;t put my finger on it
+right now.” He rubbed his eyes and leaned his head back against the&nbsp;headrest.</p>
+<p>“What a day. I&#8217;ll be glad when we can get some rest. What time is it,&nbsp;anyway?”</p>
+<p>Cobb glanced at the green clock in the dash. “&#8217;Bout 4:30,” he said. “No rest
+‘til we get this thing straightened out though &#8211; I&#8217;ve got a feeling we&#8217;re on
+to something. We need to finish this out as soon as we can. This is a make-it-
+or-break-it case for us, you&nbsp;know?”</p>
+<p>Ames gave a low snore as a response, and Cobb smiled. Might as well let him
+sleep for the few minutes it would take them to get to the station. It would
+hopefully clear his head enough to help him remember where he&#8217;d seen the
+tattoo&nbsp;before.</p>
+<p>The station was clearing out when they arrived. It was quitting time for
+many of the administrative workers, and the parking lot was becoming deserted
+as they pulled&nbsp;in.</p>
+<p>Their first stop was Foster&#8217;s office. She was on the phone when they&nbsp;entered.</p>
+<p>“I understand that, Mrs. Mendocino. I will speak to them. Of course. If you
+have any other concerns, please just give me a call. I know&#8230; you&#8217;ll be the
+first to know. And if your son happens to think of anything else, please let
+us know. <span class="caps">OK</span>, you have a nice day, and I am sorry about your son&#8230; Bye&nbsp;bye.”</p>
+<p>Foster exhaled slowly as she laid the handset down. “That was Joel
+Mendocino&#8217;s mother. She was upset because you stormed in and disturbed her
+son.” She looked up at them pleadingly. “Was it really necessary to barge in
+there like you&nbsp;did?”</p>
+<p>“We ran into a complete dead end, Lieu. We figgered the kid could probably
+give us more information than he already had, and based on other things we
+were able to find out, we think this case may be bigger than just a simple&nbsp;mugging.”</p>
+<p>“Really? What have you&nbsp;found?”</p>
+<p>Both Cobb and Ames pulled out their notebooks, scanning the cluttered pages
+for reminders of the day&#8217;s conversations. “Well, we got confirmation that the
+dead victim <em>is</em> homeless. His name is Darryl; we weren&#8217;t able to get a last
+name. He&#8217;s in and out of St. Ives, a homeless shelter down around McAllister
+Park&nbsp;.”</p>
+<p>Ames continued, “We went and talked to a number of homeless people in the
+area, especially down on 59 th , and they all told us stories of some
+‘abductions,&#8217; for lack of a better word, of homeless people these lat few
+weeks. Seems they all show up a day later, all beat up. Apparently it happened
+to Darryl, but no one we spoke to could tell us if it somehow related to his&nbsp;death.”</p>
+<p>Ames paused, and Cobb interjected again. “Both of us feel like the
+abductions and Darryl&#8217;s death are related, but we&#8217;re not sure how&nbsp;yet&#8230;”</p>
+<p>“But this,” Ames said, slamming the sketchbook down on Foster&#8217;s desk
+excitedly. “May be the link between everything. Joel Mendocino was able to
+sketch this for us. He said that the man who&#8217;d shot him had that symbol
+tattooed on his&nbsp;hand.”</p>
+<p>Foster held the sketch up to the light, examining it more closely. She
+frowned. “You said there have been a lot of abductions&nbsp;lately?”</p>
+<p>Ames nodded. “Is it possible that Darryl told someone a little too much
+about his experience and they had to have him&nbsp;killed?”</p>
+<p>Cobb smiled. “That&#8217;s what we&#8217;re&nbsp;thinking.”</p>
+<p>“Well, check with Organized Crime,” Foster said, handing the sketch back to
+Ames . “See if the sketch rings any bells with them. If these abductions are
+related, then there&#8217;s probably a kingpin involved somewhere along the line. <span class="caps">OC</span>
+might know something about&nbsp;it.”</p>
+<p>Ames and Cobb nodded before turning and exiting the office, walking to their
+own desks in the main office. The station was still populated, but the usual
+bustle of the day had calmed down substantially since everyone had gone&nbsp;home.</p>
+<p>Cobb picked up his phone and dialed the extension for the Organized Crime
+division as Ames headed back towards the records room. “Hi, this is Detective
+Cobb from Homicide. We got a victim over here, homeless man, possibly related
+to a rash of abductions and assaults that&#8217;s been happening recently in the
+McAllister Park area. One of the shooters had a mark on his hand. We&#8217;ve got a
+sketch, and we were wondering if you guys could take a look and see if you
+recognize it. Sure. <span class="caps">OK</span>, I&#8217;ll do it right&nbsp;now.”</p>
+<p>He out down the receiver. “They want me to fax it over.” He walked over to
+the fax machine and fed the paper quickly through. Ames returned carrying a
+stack of folders and sat down, poring through&nbsp;them.</p>
+<p>“These are reports from some of the other assaults that have been reported
+by hospitals recently. Most of them are from McAllister Park , which isn&#8217;t
+surprising in and of itself, but here&#8217;s something interesting. There are other
+reports of assault-like wounds from some middle-aged businessmen from the same
+day or the day following the same report from a homeless man.&nbsp;Coincidence?”</p>
+<p>Cobb glanced over Ames &#8216; shoulder at the cluttered data in front of them.
+“So what are you&nbsp;thinking?”</p>
+<p>“I dunno. But it seems strange to me that a bunch of businessmen get beat
+up, and a bunch of homeless men get beat up, all at the same time, and nobody
+wants to press charges or talk about it. Hell, a lot of them made excuses
+like, ‘I fell down the stairs,&#8217; or some bullshit like&nbsp;that.”</p>
+<p>The phone rang, shattering their contemplation. Cobb picked up. “This is
+Cobb. Uh-huh. Really? So soon, huh? Great. Yeah, fax it over. You say there&#8217;s
+a unit over in the area right now? <span class="caps">OK</span>, yeah, I&#8217;ll do that. <span class="caps">OK</span>, thanks a lot.&nbsp;Bye.”</p>
+<p>Ames looked up from his reading&nbsp;excitedly.</p>
+<p>“Well, we got a match,” Cobb said, walking over to the fax machine, where a
+copy of a police report was spitting out. “The <span class="caps">OC</span> guys said there&#8217;s an
+warehouse over on Delome that has been investigated by some blue and whites
+for the past couple of weeks. A woman has been calling to complain about noise
+coming from it for awhile, but by the time the blue and whites get out there,
+there&#8217;s nothing to be&nbsp;seen.”</p>
+<p>“But how does this tie into the tattoo, and what does <span class="caps">OC</span> have to do with it?
+And furthermore, what&#8217;s a woman doing <em>living</em> down on&nbsp;Delome?”</p>
+<p>Cobb chuckled. The old industrial section of the city centered around Delome
+Avenue , and it was generally considered to be one of the worst places in the
+city to live, but some residents refused to&nbsp;move.</p>
+<p>“Well, <span class="caps">OC</span> started looking into it because there was a major <span class="caps">OC</span>-related drug
+bust around the area, and they&#8217;re thinking the entire area is probably used by
+gangs and whatnot for all kinds of nefarious activities. So they had a few of
+their guys look into it, and he remembers seeing a symbol sort of like the
+tattoo on the shooter&#8217;s hand etched into a door on one of the warehouses. They
+sent a blue and white out there tonight to keep an eye on things, and see if
+they could figure out what&#8217;s going on. What do you say we join&nbsp;‘em.”</p>
+<p>“Worth a shot, I guess. Strange that a mark like that would be etched in a
+door, but whatever. Thank God for small miracles, I suppose. Let&#8217;s&nbsp;go.”</p>
+<p><strong>Chapter 22:&nbsp;Disappearance</strong></p>
+<p>The silence that had followed James&#8217; story was finally broken by Holly&#8217;s
+expression of thanks. She stood up slowly, reaching her hand towards the
+grizzled&nbsp;storyteller.</p>
+<p>“Thank you, James, for telling us about&nbsp;this.”</p>
+<p>“Wal, I figgered somebody oughtta know. Somethin&#8217;s got to be done, I think.
+I mean, most folks don&#8217;t seem to care too much about us down here, but still,
+it just ain&#8217;t right for us to get kidnapped and beat up like we do. Anyway, I
+hope maybe you all can tell the right&nbsp;people&#8230;”</p>
+<p>Holly smiled as she released his hand. Ned nodded in acknowledgement and
+thanks as he and Holly turned around, looking for Ned and Ken. They weren&#8217;t
+sitting behind them where they had been initially. Where had they&nbsp;gone?</p>
+<p>Holly glanced around frantically and began to call Ernie&#8217;s name. Ned calmed
+her down. “Holly&#8230; maybe they&#8217;ve just gone to the van&#8230; let&#8217;s just go and
+look.” He took her hand and led her towards the van. Holly wasn&#8217;t calm. The
+stress of the day was finally catching up to her. She needed a stiff drink –
+<em>very</em>&nbsp;stiff.</p>
+<p>And now Ernie had disappeared! Her emotional side had taken over, leaving
+rationality by the wayside, and Ned&#8217;s confidence was not as comforting as it
+ordinarily was. She continued to look around as Ned dragged her towards the
+van, and called Ernie&#8217;s name at increasing volume even after they had left the
+bounds of the bridge&nbsp;community.</p>
+<p>Ned, unlike Holly, still had a sense of rationality despite the straining
+and confusing events of the day. Perhaps it was the fact that he was an
+engineer, a professional, perhaps it was that he was male, but whatever the
+reason, he was dealing with the situation as calmly and coolly as could be&nbsp;expected.</p>
+<p>Upon their arrival at the van, he peered around, looking for signs of Ernie
+and Ken both in and around the vehicle, but he found none. And Ken&#8217;s bike
+wasn&#8217;t in the back. His initial reason for going to the van was to see if the
+bike was still there, but upon inspection, he remembered that Ken had insisted
+that he remove it when they had arrived. Holly was growing increasingly
+agitated, allowing the worry of her maternal instinct get the best of&nbsp;her.</p>
+<p>“Holly! Cal m down! I am going to go back and see if they went to the east
+side of the bridge. I&#8217;ll be back in a few minutes. You wait here in case they
+come back.&nbsp;<span class="caps">OK</span>?”</p>
+<p>Holly nodded reluctantly in response. Ned made sure she was comfortable in
+the passenger seat of the van, then turned and walked back towards the bridge.
+He made his rounds, following roughly the same path that the quartet had made
+earlier in the day, but no one had seen Ernie or Ken for quite some time. Some
+people reported seeing them ride off on the bike about 45 minutes ago, so
+Ned&#8217;s suspicion that they had left of their own accord was satisfactorily&nbsp;answered.</p>
+<p>He returned to the van and continued to try and calm Holly, reassuring her
+that both Ernie and Ken were not stupid, that they knew this area of town
+well, that they had most likely ridden home on their own; they were&nbsp;fine.</p>
+<p>Holly didn&#8217;t seem to believe him, but she reluctantly calmed down and agreed
+that they should drive home. She could call St. Ives from home and make sure
+Ernie was back. Ned was glad when he finally spun the wheel and maneuvered his
+way back onto the road. He wanted to get home and have a stiff drink&nbsp;himself.</p>
+<p>When he reached Holly&#8217;s small apartment, he debated whether or not to leave
+her alone. She had calmed down considerably during the trip, and assured him
+that she&#8217;d be fine. If she felt she needed anything, she&#8217;d call him and let
+him know. She exited the van and waved half-heartedly as she opened the door
+to her apartment building and&nbsp;entered.</p>
+<p>Ned felt like he needed to calm his nerves, and driving had always been a
+good way to do that, so he decided to take the long route home. His mind
+wandered back to his homeland as he&nbsp;drove.</p>
+<p>One of the core reasons that he and Lavina had emigrated to America was to
+escape the violence that had plagued their country. Thankfully, neither Ned
+nor Lavina had ever experienced the violence firsthand, but they had heard
+terrible stories of roving “death gangs” that would travel around, raping,
+beating and robbing anyone who got in their path. If they didn&#8217;t physically
+kill you, they&#8217;d do enough psychological damage that it was essen tially the&nbsp;same.</p>
+<p>Ned shook his head. America was not the land of promise that he had hoped
+and dreamed it would be when he had contemplated the move from his European
+home. America was no better than the rest of the world &#8211; it had the same
+vices, the same violence and depravity, the same distaste for the less
+fortunate. No, America was not the land he had been&nbsp;promised.</p>
+<p>He approached the small house that his family called home and parked the van
+on the street on the next block. His six children poured out of the front door
+of the house, the older ones smiling in warm welcome, the youngest running up
+to him and attaching themselves steadfastly to his legs. It had been an entire
+day! How had they <em>ever</em> gotten along without&nbsp;him?</p>
+<p>He walked, children in tow, towards their home. Lavina stood in the doorway,
+a strange expression of disapproval on her round face. Ned entered the house
+and hugged her close, ignoring the children&#8217;s burst of laughter as he swept
+her back and kissed her fiercely on the lips. What a wonderful family they had
+created &#8211;&nbsp;together!</p>
+<p>But it soon became apparent that Lavina was not in the mood to revel in the
+marvelous nature of their family. She pushed him away and said, “Someone is on
+the phone for you. Young and she sounds&nbsp;upset.”</p>
+<p>Ned sighed. Lavina had so many astonishing qualities, but she was jealous.
+She thought that every young America n girl was on a personal mission to steal
+her husband away, and she fought fiercely for her man, though Ned knew <em>that</em>
+battle had been won long, long&nbsp;ago.</p>
+<p>He walked into the small living room, sitting down heavily on the chair that
+was his. The children did try, on many occasions, to claim it for themselves,
+but it was well acknowledged among all members of the family that when Ned was
+home, the chair was <em>his</em>, and no one&nbsp;else&#8217;s.</p>
+<p>He was looking forward to a few minutes of relaxation on the chair, then it
+would be time to do something really fun &#8211; work on the Jetta and get it up and
+running again. He grinned just at the thought of getting under the hood and
+immersing his hands in the greasy&nbsp;machinery.</p>
+<p>He picked up the receiver and held it to his ear.&nbsp;“Hello?”</p>
+<p>“Ned&#8230;” It was Holly, and she was crying. “I called St. Ives, and they said
+he isn&#8217;t there! He hasn&#8217;t come home yet! Ned, something&#8217;s wrong, I know it. I
+can&#8217;t explain it, but I <em>know</em> something isn&#8217;t&nbsp;right!”</p>
+<p>“<span class="caps">OK</span>, what do you want to do?” Ned was tired, but he knew he couldn&#8217;t just
+let her sit in her apartment, by herself, and worry. No, he had an obligation,
+as both a friend and a man, to help her &#8211; to make sure she felt like she was
+helping the situation &#8211; if there even was a&nbsp;“situation.”</p>
+<p>“Let&#8217;s go look for him. Maybe he&#8217;s hurt or something, you know, and if we
+could&nbsp;just&#8230;”</p>
+<p>“Holly, he&#8217;s probably <span class="caps">OK</span> &#8211; the chances of something happening are just&nbsp;so&#8230;”</p>
+<p>“ <strong><em>Dammit</em></strong>, Ned! I <strong><em>know</em></strong> he&#8217;s not <span class="caps">OK</span>!” she screamed into the
+phone, forcing Ned to move the handset away from his hear in a self-preserving&nbsp;reflex.</p>
+<p>“<span class="caps">OK</span>, <span class="caps">OK</span>, we&#8217;ll go looking for him. I&#8217;ll be there in 20&nbsp;minutes.”</p>
+<p>“Thanks&nbsp;Ned.”</p>
+<p>“<span class="caps">OK</span>. I&#8217;ll see you in a few&nbsp;minutes.”</p>
+<p>“<span class="caps">OK</span>,&nbsp;bye.”</p>
+<p>“Bye.”</p>
+<p>He set the handset gently back on it&#8217;s rest, and laid his head back on the
+chair, closing his eyes blissfully for a few seconds. Well, rest, relaxation,
+and the Jetta would have to&nbsp;wait.</p>
+<p>He stood up and called to Lavina. “I have to go out. Holly is worried about
+one of the homeless guys she knows, and I&#8217;m going to go help her look for him.
+I should be back in a couple of hours or&nbsp;so.”</p>
+<p>Lavina met him in the hallway with yet another disapproving gaze. Out with a
+beautiful young woman, no doubt. Well, <em>this</em> one wouldn&#8217;t steal her husband
+away, oh no. She&#8217;d make sure of <em>that</em>.</p>
+<p>Ned shook his head, knowing what she was thinking. “You needn&#8217;t worry,
+darling. You&#8217;re the only woman for me.” He reached for her but she pulled
+away. Oh well, someday she&#8217;d get over&nbsp;it.</p>
+<p>“<span class="caps">OK</span>, well I will see you and the children when I get back. Children, be
+good, obey your mother, and I&#8217;ll be back soon.” A chorus of acknowledgments
+came from various corners of the house, and he turned, threw his jack over his
+shoulders, and stepped out into the&nbsp;darkness.</p>
+                                                            </article>
+            </div>                                                <div class="row">
+            <div class="post-info two columns">
+            <div class="post-date">
+                                    <div class="month">NOV</div>
+                    <div class="day">22</div>
+                    <div class="year">2004</div>
+                    <div class="permalink">
+                        <a href="/2004/11/november-21st/"
+                           title="Permanent link to 'November 21st'">∞</a>
+                    </div>
+                            </div>
+                                        <ul class="tags">
+                                            <li><a href="/tag/novel">novel</a>
+                        </li>
+                                            <li><a href="/tag/nanowrimo">nanowrimo</a>
+                        </li>
+                                    </ul>
+                    </div>
+                            <article class="post-content ten columns">
+                <time datetime="2004-11-22 PST"
+                      pubdate=""></time>
+                <header>
+                    <h1>
+                        <a href="        /2004/11/november-21st/">November 21st</a>
+                                            </h1>
+                </header>
+                                    <p><strong>Chapter 20:&nbsp;Kidnapped </strong></p>
+<p>Mike&#8217;s surrounding&#8217;s slowly faded into view as he came to. He had been
+unconscious twice today! It was starting to wear on his mind physically, not
+to mention his&nbsp;self-confidence.</p>
+<p>He soon realized that he was tied, completely unable to move, to a chair in
+the center of Angelo&#8217;s office. The pieces of the broken coffee table still lay
+in front of the loveseat, though the girl was now gone. He struggled against
+the ropes that tied him down, but they were tight around his wrists and
+ankles, and the metal chair to which he was tied seemed too tough to break. It
+wouldn&#8217;t matter much, anyway. There was no way he&#8217;d make it out of the
+warehouse alive. He was more likely to rob a casino and run out of the front
+door unopposed than to get out of the warehouse with his skin&nbsp;intact.</p>
+<p>He was, to be honest, a little surprised to find himself still alive anyway.
+It was very uncharacteristic of Angelo. But Angelo did have a bit of the James
+Bond villain in him, and Mike assumed that a delightfully painful death or
+maiming awaited&nbsp;him.</p>
+<p>Angelo entered from the side door, smiling at Mike&#8217;s present consciousness.
+He was closely followed by Marty, the man whose blow from behind had created a
+lump on Mike&#8217;s head that still ached&nbsp;painfully.</p>
+<p>“Well, Mike, it certainly is good to see you awake. It&#8217;s just not
+gentlemanly to come and visit someone, then fall asleep while they&#8217;re trying
+to be hospitable.” Mike ignored him as he paced around the chair to which Mike
+was tied, his hands held behind his back in their customary formation, a smile
+of supreme, gloating self-confidence written on his&nbsp;face.</p>
+<p>“You may be wondering, Mike, why you are still alive after such an egregious
+breach of my rules, of the trust that you and I have built over these past
+months.” He paused, waiting for a response from Mike. There was&nbsp;none.</p>
+<p>“And well you should. Ordinarily I would have killed you immediately –
+wouldn&#8217;t have blinked, wouldn&#8217;t have given you a second thought.” He paused
+again, ensuring Mike was&nbsp;listening.</p>
+<p>“But I like you, Mike. I do. So I thought I&#8217;d give you a chance. You&#8217;ve
+always been one to stick to my rules in the past, Mike, which gave me reason
+to believe that something had happened to you. So, being the extremely
+generous individual that I am &#8211; I <em>am</em> a humanitarian at heart, Mike, you
+must believe me &#8211; I did a little sleuthing and discovered some very
+interesting things about you&nbsp;Mike.”</p>
+<p>Mike bristled. What the hell had Angelo dug up on him? And how had he done
+it so quickly? Surely he hadn&#8217;t been out <em>that</em>&nbsp;long&#8230;</p>
+<p>“Mike, I don&#8217;t know how to express to you my regret that Copeland saw fit to
+fire you today.” That son of a <em>bitch</em>! “But Mike, you have to understand the
+company&#8217;s position &#8211; you simply weren&#8217;t performing for them. You were a bad
+horse to bet on, Mike. And you know something about betting on bad horses,
+don&#8217;t you?” Angelo glanced at Mike, taking a perceptible pleasure in his
+discomfort at the enraging&nbsp;comments.</p>
+<p>“But it didn&#8217;t stop there, Mike, and I can honestly say that I fully
+understand your actions in light of the new developments on the Turner home
+front. From what I hear, Mrs. Marie Turner has told the police all about her
+enraged husband who came home early and, in a fit of rage, brutally killed the
+man she called her ‘one, true love.&#8217; Sad, really. You really need to learn to
+control your anger, Mike. Didn&#8217;t I warn you about that last time we discussed
+the races? Well, it doesn&#8217;t matter&#8230; it&#8217;s obvious you didn&#8217;t listen.” He
+raised his hands above his head in mock&nbsp;consternation.</p>
+<p>“Why do I even try? It&#8217;s so obvious that no one ever takes my advice to
+heart!” Mike struggled violently against the ropes, causing the chair, and
+himself, to fall to the floor, crushing his immobile arm uncomfortably beneath
+him as he lay on his&nbsp;side.</p>
+<p>Angelo knelt down, bringing his sweaty face within inches of Mike&#8217;s. His
+breath reeked of acrid smoke and stale coffee; his eyes were still bloodshot
+and spacey from the drugs. The toothpick he chewed in his mouth was crushed to
+fine fibers from hours of nervous chewing. “The police are crawling the city
+looking for you, Mike. It won&#8217;t be long before they find your wife&#8217;s <span class="caps">SUV</span>
+outside&#8230; and then, I&#8217;ll have no choice but to hand you over. After all, I am
+a law-abiding citizen &#8211; I don&#8217;t want to be party to a <em>murder</em>!”</p>
+<p>He stood up, resuming his pacing. Mike remained on the floor, looking up at
+Angelo, whose body seemed oddly out of proportion from this strange angle. “I
+have a little surprise for you, Mike. A solution to <em>all</em> your problems. You
+see, I have the resources necessary to keep you from the pigs&#8217; hands. I can
+keep you safe. And all I ask in return is a little&#8230;” He held his index
+finger and thumb slightly apart, illustrating just how little “a little” was.
+“&#8230;Cooperation. Just a little cooperation. And if this goes well, I may even
+be willing to forgive you that sizeable debt that you owe me. Now wouldn&#8217;t
+that be&nbsp;something?”</p>
+<p>Angelo&#8217;s mock-friendliness was beginning to annoy Mike, and the lack of
+blood flow to his right arm was becoming extremely uncomfortable. He struggled
+again against the ropes, but he had even less mobility than when he had made
+his previous attempt, and his movements only confirmed the futility of his&nbsp;situation.</p>
+<p>“Oh, Mike, forgive me, please! What a terrible host I am!” Angelo motioned
+to Marty, who stood Mike&#8217;s chair back on it&#8217;s four legs. Mike winced as the
+blood rushed back into his right arm, sending burning needles through its
+entire&nbsp;length.</p>
+<p>“You must forgive me, Mike. Sometimes I just get so caught up in the moment
+that I forget my guests completely. It&#8217;s never intentional, I promise&nbsp;you.”</p>
+<p>The phony act was really getting old. “You know what, Angelo, just cut the
+bullshit and get to the&nbsp;point.”</p>
+<p>Angelo frowned. He was having fun. But business was business. “Fine,” he
+said. “Mike, you&#8217;re in deep shit. The cops are after you because of your
+little ‘indiscretion&#8217; back at your house. So really, you don&#8217;t have much
+choice. You&#8217;re going to do what I tell you, or I turn you over to the cops.
+It&#8217;s that simple.&nbsp;Understand?”</p>
+<p>Mike chose not to dignify the patronizing question with a response. Angelo
+continued anyway. “You really should see the pictures of the man you killed,
+Mike. It&#8217;s brilliant, the brutality of it, the unbridled primal passion of it
+all. It&#8217;s damn near a work of art! And that&#8217;s what I need &#8211; an artist –
+someone with a sense of the truly brutal, the truly primal. Someone like you,&nbsp;Mike.</p>
+<p>“The organization I work with organizes a weekly ‘fight,&#8217; of sorts, and
+you&#8217;re going to be the next prime attraction. You&#8217;re going to tap into that
+vicious side of yourself that you love to channel so much and beat some other
+guy to all hell. Or you&#8217;ll get beat to hell yourself. Either way, I&nbsp;win.”</p>
+<p>He got close in to Mike&#8217;s face again. “Remember what I used to tell you,
+Mike. The house <em>always</em> wins.” He smiled eerily. “Tell you what, you think
+about it, and let us&nbsp;know.”</p>
+<p>With that, a swift painless knock against his head brought on the blackness
+once&nbsp;again.</p>
+<hr />
+<p>Ernie was walking alone along the nearly empty street, on his way back to
+St. Ives. He hadn&#8217;t lasted long when James had started telling his story.
+There were too many details, too many things to remember. Ernie liked his
+stories short and sweet, and happy too. That was the worst part about James&#8217;
+story &#8211; it had a sad&nbsp;ending.</p>
+<p>He had grown bored and restless quickly, so he and Ken had left Ned and
+Holly and had continued around the area asking people about Darryl. But Ken
+had grown restless too, worried that his parents would be expecting him&nbsp;soon.</p>
+<p>Ned and Holly were nowhere to be found, but fortunately, Ken had already
+claimed his bike from the back of Ned&#8217;s van, anticipating needing to leave
+before the others. 59th Street was within biking distance of Ken&#8217;s home, so
+he and Ernie set off towards the nice suburban neighborhood, Ernie riding on
+the rear pegs&nbsp;again.</p>
+<p>The corner was empty as they passed by on Ken&#8217;s bike; the kids had all gone
+in for the evening. The sun was sinking low &#8211; night was almost upon&nbsp;them.</p>
+<p>Ken had offered to let Ernie stay in the garage again, so that Ernie
+wouldn&#8217;t need to make the dangerous journey back to St. Ives, but Ernie had
+grown hungry again, and he longed for some of Rho nda&#8217;s soup and the warmth of
+his soft, familiar bed. So despite Ken&#8217;s protests and his own judgment, he had
+set off alone back towards St.&nbsp;Ives.</p>
+<p>The light had steadily decreased as he had progressed on his trip, until the
+sun had dropped completely beyond the curvature of the earth, leaving nothing
+but the occasionally visible stars and moon and the flickering streetlamps to
+light the&nbsp;way.</p>
+<p>Ernie wasn&#8217;t particularly nervous. He had made the trip plenty of times
+before, and even in the darkness, but the stories that he and Ken had been
+hearing throughout the day of mysterious abductions caused him to be more wary
+than&nbsp;normal.</p>
+<p>There was nothing to give him concern, though. The street was quiet, except
+for the occasional rustle of a paper cup or newspaper blowing along the
+asphalt in the wind. Every so often, a car would round a corner and pass
+slowly by him, but for the most part, he had the entire quiet street to&nbsp;himself.</p>
+<p>And so he walked on, not paying much attention to the car that passed by
+him, moving more slowly than the others, and not noticing that it was the same
+car that had passed him three ties now. It came to a stop at the curb a half
+block in front of Ernie, and the back door opened. A nice looking man stepped
+out, dressed in a suit and tie, wearing a fedora on his head, and smiling
+broadly at Ernie as he&nbsp;approached.</p>
+<p>“Ernie!” he exclaimed as he approached, arms wide in greeting. “I thought it
+was you! I&#8217;m glad I stopped. No music&nbsp;today?”</p>
+<p>Ernie didn&#8217;t recognize the man. How did he know his name? He stiffened as
+the man encompassed his body with his&nbsp;arms.</p>
+<p>“I haven&#8217;t seen you in awhile! Hey, are you heading to St. Ives? How about a
+ride? It&#8217;s getting kind of chilly out here&#8230; I&#8217;m sure Rho nda would prefer it
+if you came in and got yourself something to eat. How about it?” He motioned
+to the still open back door of the car a few meters in front of&nbsp;them.</p>
+<p>Ernie nodded. This man may know him, but Ernie didn&#8217;t recognize his face,
+and Rho nda had warned him nev er to get into strange cars with people he
+didn&#8217;t know. In fact, Rho nda had been clear that he shouldn&#8217;t even speak with
+those he didn&#8217;t know, but he wasn&#8217;t really brea king that particular rule; the
+other man was doing all the&nbsp;talking.</p>
+<p>Ernie stepped around the man and continued on his way, but the man followed
+him and kept talking. “Oh, come on, Ernie,” he said, wrapping one arm around
+him as if they were pals. “I really have something I want to talk to you
+about! I know you have a lot of problems&#8230; you know, money problems, and
+problems remembering things, and stuff&#8230; I just want to help you out. Tell
+you what, get in the back of the car, and I&#8217;ll feel you in on my plan&#8230; I can
+solve all of your problems, I can get you out, Ernie, honest, but you need to
+get in the&nbsp;car.”</p>
+<p><em>If a man ever comes to you, sayin&#8217; he&#8217;s got da answer, dat he can get you
+out, you just gots to do one thing, don&#8217;t listen to &#8216;im.</em> Darryl&#8217;s warning
+came flooding back to him, and he felt a sudden chill of fear. He wrenched his
+body away from the man&#8217;s arm and began to run down the street, but the man&#8217;s
+car was already pulling up ahead of&nbsp;him.</p>
+<p>Two men stepped out and ran towards him. He attempted to turn and cross the
+street, but they were surprisingly quick, and headed him off in the middle of
+the street. They wrapped their strong arms around his body, and forced a
+strange-smelling rag in his face. He struggled briefly, and felt his Walkman
+slide from it&#8217;s customary position on his waistband and clatter on the floor.
+The men dragged him towards the car, and pushed him roughly into the trunk as
+he passed&nbsp;out.</p>
+                                                            </article>
+            </div>                                                <div class="row">
+            <div class="post-info two columns">
+            <div class="post-date">
+                                    <div class="month">NOV</div>
+                    <div class="day">21</div>
+                    <div class="year">2004</div>
+                    <div class="permalink">
+                        <a href="/2004/11/november-20th/"
+                           title="Permanent link to 'November 20th'">∞</a>
+                    </div>
+                            </div>
+                                        <ul class="tags">
+                                            <li><a href="/tag/novel">novel</a>
+                        </li>
+                                            <li><a href="/tag/nanowrimo">nanowrimo</a>
+                        </li>
+                                    </ul>
+                    </div>
+                            <article class="post-content ten columns">
+                <time datetime="2004-11-21 PST"
+                      pubdate=""></time>
+                <header>
+                    <h1>
+                        <a href="        /2004/11/november-20th/">November 20th</a>
+                                            </h1>
+                </header>
+                                    <p><strong>Chapter 19:&nbsp;Story </strong></p>
+<p>Holly and Ned sat down along the slope beside the drain pipe, looking
+intently at the grizzled man who lounged on the pipe in front of them. He wore
+a small, faded green kufi on his head, hiding his graying hair underneath it.
+His face was crinkled with age, and his kind eyes glowed warmly out of the dim
+surroundings. He held his hands in his lap, moving them expressively as he
+spoke softly. His dark, rich voice echoed below the bridge as he told his&nbsp;tale.</p>
+<p>“Well, like I was sayin&#8217;, me and Darryl was good friends. We tried to stick
+together, you know, have each other&#8217;s back. ‘Course it wasn&#8217;t always that way.
+Fact is, when we first met, we didn&#8217;t much care for each other at&nbsp;all.</p>
+<p>“You see, we first met when I tried to work his part of State Ave. one day.
+I hadn&#8217;t been doing too well on my old strip, so I thought I&#8217;d move up further
+north and see if I could do any&nbsp;better.</p>
+<p>“The week before, I&#8217;d managed to come across some tools at a construction
+site and had nabbed a squeegee there, so not only was I imposin&#8217; on Darryl&#8217;s
+section of the street, I was also doing the exact gig he was. Not to mention,
+I was just learnin&#8217; the trade, you know, and I hadn&#8217;t really had a chance to
+hone my technique. So I wasn&#8217;t doin&#8217; the best job of cleain&#8217; the windows,
+‘specially compared to&nbsp;Darryl.</p>
+<p>“It was all right the first few days, since we didn&#8217;t run into each other. A
+couple of guys had told me that Darryl normally squeegeed that section of the
+street, but to be honest, I didn&#8217;t care. I was just trying to eke by, know
+what I&nbsp;mean?</p>
+<p>“But eventually, Darryl and I ran into each other. He had been hearin&#8217; stuff
+about another guy down on his street ruinin&#8217; his reputation and all, so when
+he finally saw me, he wasn&#8217;t to pleased. But if you know Darryl, he wadn&#8217;t one
+to get real angry and up in your face about somethin&#8217;. So he stopped me later
+that afternoon after most people had cleared the street ad I was headin&#8217; home,
+and he simply asked me to move either further north or further&nbsp;south.</p>
+<p>“He explained that he&#8217;d been workin&#8217; that partickler section of the street
+for some time, and that he had reputation that he&#8217;d built, and it just
+wouldn&#8217;t work to have two guys tryin&#8217; to squeegee the same section. He
+explained that it made more sense for us to split up ‘cause we&#8217;d be able to
+have more&nbsp;customers.</p>
+<p>“Wal, what he said made sense, but it wasn&#8217;t what I wanted to hear. And him
+bein&#8217; so friendly about everything, I didn&#8217;t take him seriously. So I told him
+he could shove it and I just kept on goin&#8217;, doin&#8217; what I always&nbsp;did.</p>
+<p>“Next day, Darryl came up and said basically the same thing, askin&#8217; me to
+move on north or south again. And again, I told him the same thing. But he was
+a persistent bastard, and every day he came up to me, polite as the last time,
+and explained the situation&nbsp;again.</p>
+<p>“Eventually, it got to the point where I was considerin&#8217; movin&#8217; on just so I
+wouldn&#8217;t have to listen to his lecture every day. I started tryin&#8217; to avoid
+him during the day, but he usually found&nbsp;me.</p>
+<p>“One day, I had had it partickly rough, and there he was, comin&#8217; on to ask
+be to move on, and I just lost it. I let him have it. We got into a bit of a
+scuffle, and Darryl, bein&#8217; as mild-mannered and small as he was, didn&#8217;t put up
+much of a fight. Oh, don&#8217;t get me wrong, I didn&#8217;t hurt him real bad or
+nothin&#8217;, but I did pound on him a&nbsp;bit.</p>
+<p>“It made me feel a lot better, and I thought that he&#8217;d finally get the
+picture that I wasn&#8217;t plannin&#8217; on goin&#8217; anywhere, but the next day, he found
+me again and started talkin&#8217; to&nbsp;me.</p>
+<p>“This time, though, he&#8217;d changed his tactics. He said that if I wasn&#8217;t
+movin&#8217; on, the least I could do was stop ruinin&#8217; his reputation. So he offered
+to teach me how to do a better job with the squeegee. I could hardly believe
+my ears. I mean, I&#8217;d just hit him up the day before &#8211; he still had a bruise on
+his face from where I&#8217;d let him have&nbsp;it.</p>
+<p>“But as usual, it was a genuine offer, so I spent that day workin&#8217; with him,
+learnin&#8217; his technique and listenin&#8217; to him ramble on about his experiences
+and whatnot. Man, he liked to talk.” He paused, smiling and shaking his&nbsp;head.</p>
+<p>“I mean, Darryl&#8217;d talk and talk and talk &#8211; didn&#8217;t matter if no one was
+listenin&#8217;. He just liked to talk. But anyway, that night he invited me back
+here, to this bridge, with him, and we spent the rest of the night talkin&#8217;
+‘bout everything under the&nbsp;sun.</p>
+<p>“And that was really all it took. We started workin&#8217; together every day, and
+he taught me a lot. And he and I just became real good friends. I don&#8217;t really
+know why. By all accounts, we really shoulda still hated each other. We were
+very different people, but somehow we ended up makin&#8217; it&nbsp;work.</p>
+<p>“Eventually he and I agreed to stop workin&#8217; together. It really made the
+most sense, since we could cover twice as much area in the same amount of
+time. He finally got his way, I guess &#8211; I moved on up a lit further north and
+he stayed working his area, but we would get together here at the end of the
+day, and share whatever we had. Sometimes he had a good day, sometimes I did,
+most times neither of us did, but we shared everything and we ended up all
+right I&nbsp;guess.</p>
+<p>“As time went on, me and him didn&#8217;t talk as much as we had, and he started
+spending more time at the shelter, I guess. I never much cared for places like
+that, though he told me St. Ives was diff&#8217;rent. Anyway, when we started
+hearin&#8217; all the stories ‘bout people disappearin&#8217;, we decided we&#8217;d better
+start stickin&#8217; together again. It just made sense. So we started workin&#8217;
+together again, and we did all&nbsp;right.</p>
+<p>“But one night, Darryl decided he wanted to go to the shelter for a meal,
+and when I told him I really didn&#8217;t want to go, he just left without me. I
+didn&#8217;t seem him until really late the next day. I figgered he&#8217;d just ended up
+stayin&#8217; the night there or somethin&#8217;, but when he came back he was all beat
+up. He&#8217;d stopped by St. Ives ad I guess got cleaned up, but he looked
+terrible. He was limpin&#8217;, cuts and bruises all over his body &#8211; he was a&nbsp;wreck.</p>
+<p>“He wasn&#8217;t talkin&#8217; much either, and I knew better than to press him to tell
+me what had happened. So we just kept on doin&#8217; what we always did for the next
+few days. I figgered he&#8217;d tell me when he was ready. And finally, about a week
+after it had happened, he&nbsp;did.”</p>
+<p>James paused and leaned forward, lowering his voice substantially. “Now,
+there were two cops snoopin&#8217; around here earlier today, askin&#8217; about him and
+showin&#8217; pictures and whatnot, but I didn&#8217;t tell ‘em anything.” Holly and Ned
+glanced at each other as James frowned. So Ames and Cobb <em>had</em> been&nbsp;by.</p>
+<p>“I don&#8217;t like cops &#8211; don&#8217;t trust ‘em. Anyway, you have to understand, I&#8217;m
+takin&#8217; a big risk tellin&#8217; you this, just like Darryl took a risk by tellin&#8217;
+me, but people need to know. Maybe then somethin&#8217; can be&nbsp;done.”</p>
+<p>He paused again, drawing Ned and Holly in closer before continuing at an
+even lower volume. “Darryl told me, that as he was walkin&#8217; to St. Ives, that a
+man had pulled over on the street &#8211; he couldn&#8217;t remember exactly where &#8211; and
+started talkin&#8217; to him. He had said he recognized Darryl from a time when he&#8217;d
+cleaned the windshield of his car, and he just wanted to compliment him on the&nbsp;job.</p>
+<p>“He gave Darryl a twenty dollar bill, and then asked him if he wanted to
+make a lot more. He told Darryl that it was a really simple thing he needed
+done, and that if Darryl was willing there could be a lot of money in&nbsp;it.</p>
+<p>“Darryl wasn&#8217;t one to believe in these get-rich-quick schemes, but he told
+me that the man seemed so sincere &#8211; so honest and friendly. So Darryl accepted
+the offer and had accepted a ride in the man&#8217;s car. He didn&#8217;t know where they
+had gone. He said they had driven for quite&nbsp;awhile.</p>
+<p>“They arrived at some warehouse or somethin&#8217;, and the man had led Darryl
+into this huge empty room. Then, while Darryl waited, a whole bunch of men
+started coming in and standing around the inner walls of the room. Darryl said
+at least 30 to 40 men had come in, and they just stood around, not talkin&#8217; to
+him or anything, just stayin&#8217; quiet with these serious expressions on their
+faces, like they were anticipatin&#8217; somethin&#8217; exciting. Most of ‘em were
+wearin&#8217; suits or sports jackets, Darryl had said, and they all seemed to be
+businessmen or somethin&#8217; judgin&#8217; from what they were&nbsp;wearin&#8217;.</p>
+<p>“Then the man who had picked Daryl up walked in and started talkin&#8217;. ‘Well
+gentlemen, tonight we have a man named Darryl. He works down on State Ave. ,
+where many of you work, and squeegees your windows for loose change&#8230; I think
+a lot of you are familiar with him.&#8217; A lot of the men standing around let out
+a whoop, and the man smiled. ‘Well, I think you all know how this works, so
+who&#8217;s first tonight?&#8217; A bunch of men raised their hands, and the man pointed
+to one in the back of the room. ‘<span class="caps">OK</span>, looks like you&#8217;re our lucky guy tonight.
+Make us proud.&#8217; The man who&#8217;d picked Darryl up stepped out with the other men,
+and the one he&#8217;d pointed out stepped into the center of the circle with
+Darryl. Darryl didn&#8217;t know what was&nbsp;happenin&#8217;.</p>
+<p>“The man took his shirt off and ran towards Darryl, and hit him square in
+the face, knocking him to the ground. He waited for Darryl to get back up,
+then hit him again. Darryl tried to get up and run away, or out of the room,
+but the men in the circle would grab him and throw him back&nbsp;in.</p>
+<p>“I asked ‘im if he tried to fight back, and he said he did, but there were
+too many of ‘em. As soon as he got a good shot in, somebody else would step
+into the circle and beat him even harder. By the end of the night, he said he
+was just layin&#8217; on the floor, blood leakin&#8217; out of him, prayin&#8217; that&#8217;d all be
+over soon. He passed out while they were still beatin&#8217; on&nbsp;him.”</p>
+<p>Holly felt like she was going to be sick. She had experienced her share of
+violence, but this beating that James spoke of sounded almost sports-like. Who
+were all these men? Did they really get off on beating a defenseless homeless
+man nearly to&nbsp;death?</p>
+<p>James noticed his audience&#8217;s discomfort and broke off his more detailed
+description that Darryl had given him. His voice was still low and he looked
+around nervously, searching for anyone that might be listening in
+surreptitiously. Satisfied that all was clear, he&nbsp;continued.</p>
+<p>“Anyway, Darryl came to after the man who&#8217;d picked him up splashed some
+water on his face. They threw him back into the car and drove him back to the
+street where they&#8217;d picked him up. Before they dropped him off, the man said,
+‘Darryl, I hope you understand that if you tell anyone about this, and I mean
+anyone,&#8217; &#8211; he was very clear on this point &#8211; ‘I&#8217;m gonna hunt you down and kill
+not only <em>you</em>, but <em>every single person that you told</em>.&#8217; Darryl believed
+him. He said there was somethin&#8217; in his eyes that told him he was&nbsp;serious.</p>
+<p>That&#8217;s why Darryl wouldn&#8217;t tell nobody &#8211; and that&#8217;s why I&#8217;ve been careful
+m&#8217;self. But there comes a time when this kinda things got to be exposed, and
+maybe y&#8217;all can do&nbsp;it.”</p>
+<p>James sat back on the pipe and sighed heavily. He was pleased to finally
+tell someone Darryl&#8217;s story, but worried too &#8211; now these fine people, friends
+of Darryl&#8217;s, also had the burden of Darryl&#8217;s experience? There was little
+doubt in James&#8217; mind that the man responsible for Darryl&#8217;s abduction and
+beating was also responsible for his death. Would he also now harm these
+people, and James&nbsp;himself?</p>
+<p>Holly and Ned looked at each other. They also understood the magnitude of
+the situation. It seemed their quest for answers had yielded some, but also
+created more&nbsp;questions.</p>
+                                                            </article>
+            </div>                                                <div class="row">
+            <div class="post-info two columns">
+            <div class="post-date">
+                                    <div class="month">NOV</div>
+                    <div class="day">19</div>
+                    <div class="year">2004</div>
+                    <div class="permalink">
+                        <a href="/2004/11/november-18th/"
+                           title="Permanent link to 'November 18th'">∞</a>
+                    </div>
+                            </div>
+                                        <ul class="tags">
+                                            <li><a href="/tag/novel">novel</a>
+                        </li>
+                                            <li><a href="/tag/nanowrimo">nanowrimo</a>
+                        </li>
+                                    </ul>
+                    </div>
+                            <article class="post-content ten columns">
+                <time datetime="2004-11-19 PST"
+                      pubdate=""></time>
+                <header>
+                    <h1>
+                        <a href="        /2004/11/november-18th/">November 18th</a>
+                                            </h1>
+                </header>
+                                    <p><strong>Chapter 18:&nbsp;Memory </strong></p>
+<p>“Joel?” He opened his eyes slowly, allowing them to adjust to the bright
+light that now shone into his room. His mother&#8217;s concerned eyes stared down at
+him, his father smiled grimly from the&nbsp;corner.</p>
+<p>“It&#8217;s good to see you awake, son,” his father said, walking over and placing
+a hand on his shoulder as his mother buried her teary face in his&nbsp;chest.</p>
+<p>“Mom, I&#8217;m <span class="caps">OK</span>&#8230;” he protested. Why did she always have to worry so&nbsp;much?</p>
+<p>“I know, that&#8217;s why I&#8217;m crying.” He rolled his eyes. His mother slowly tore
+herself away from him, content eventually to hold his&nbsp;hand.</p>
+<p>“When we didn&#8217;t hear from you, we started to worry,” his dad began. “But we
+figured you were tired and forgot to call or something. Then the police
+called, and we tried to get down here as fast as we could, but you were in
+surgery, and even after that the police wouldn&#8217;t let us get in here until
+they&#8217;d had a chance to talk to you. What did they want to know,&nbsp;anyway?”</p>
+<p>“Just what happened, that&#8217;s all,” Joel answered, staring up at the white&nbsp;ceiling.</p>
+<p>“Well, we&#8217;re just glad that you&#8217;re all right,” his mom&nbsp;interjected.</p>
+<p>“I am, mom, I am.” He patted her hand in&nbsp;reassurance.</p>
+<p>“Well, how was the return trip? We read all your letters. Sounds like you
+had a great&nbsp;time.”</p>
+<p>“Yeah, the trip back was pretty uneventful. It was sort of sad, really. I
+mean, I was excited to be coming back here, you know, but I sort of felt like
+I was leaving home, too. It was very&nbsp;strange.”</p>
+<p>“Well, son you were there for almost 6 months. I suppose that place is a
+part of you&nbsp;now.”</p>
+<p>Joel smiled at his father&#8217;s phrasing. It was a little melodramatic, to be
+sure, but he did like the sound of it, and in truth, it wasn&#8217;t that far off
+the mark. The culture he&#8217;d experienced there, the people, the way the people
+there had approached life &#8211; it was all a part of him. It was something that
+he&#8217;d nev er forget, something that would shape all of his decisions and
+thoughts from now&nbsp;on.</p>
+<p>“Well, I guess if you&#8217;ve read my letters, then there&#8217;s not a whole lot left
+to&nbsp;tell&#8230;”</p>
+<p>“Oh, nonsense! We have plenty of questions! Do you feel up to&nbsp;talking?”</p>
+<p>Joel smiled. If there was one thing he felt like doing, it was talking. It
+was nice to revel in their interest for awhile, to explain the experiences
+which had changed him so much, and the pain was bearable now, so he should
+make the best of the&nbsp;opportunity.</p>
+<p>His father pulled up a chair and sat, and Joel told them about his trip from
+start to finish, making embellishments here and there for dramatic effect.
+They were a captive audience &#8211; neither of them had nev er traveled outside the
+state, let alone the country &#8211; and Joel did his best to explain the paramount
+differences in culture and world-view that he had experienced on his trip, and
+what he had felt he&nbsp;learned.</p>
+<p>None of the trio noticed when Ames and Cobb entered the&nbsp;room.</p>
+<p>“So Sean pauses, for effect, you know, then says, ‘A date with Natalie Port
+man.&#8217; That&#8217;s all he wanted!” His parents broke out in appreciative chuckles.
+“So after we all got done&nbsp;laughing&#8230;”</p>
+<p>“Excuse me Mr. Mendocino,” Ames broke in, clearing his throat to get their
+attention. Joel looked up at him. What did they&nbsp;want?</p>
+<p>“Hi detective. What can I do for&nbsp;you?”</p>
+<p>The two detectives strode in, dragging chairs from the small table in the
+corner and sat down around his bed. They had been traveling around for most of
+the day, talking to every homeless man they could find in an effort to figure
+out who was responsible for Darryl&#8217;s&nbsp;murder.</p>
+<p>What they had been told baffled them. The homeless men had told them all the
+same story &#8211; some mysterious disappearances had occurred, people would wind up
+beaten up, but wouldn&#8217;t say anything more about it. No one they&#8217;d spoken to
+knew Darryl personally, so they said, but both Ames and Cobb had gotten the
+feeling that some of them were holding back, especially a grizzled man down on
+59 th&nbsp;.</p>
+<p>They had checked some records back at the station and at local hospitals,
+and had found several unsolved crimes the past few mont hs, all involving
+homeless people. Nearly 100% of the cases they had found involved&nbsp;men.</p>
+<p>None of the homeless had pressed charges, of course, and were tight-lipped
+about what had happened, so the cases were closed and no one took a second
+look. But Ames and Cobb agreed &#8211; there was a pattern&nbsp;there.</p>
+<p>It was still a long shot to tie Darryl into the whole scheme. By most
+accounts, he had been abducted, but none of the other abductees had been
+killed, and it was still a distinct possibility that his death was just
+random. But in the end, Cobb and Ames agreed that their instincts needed to be
+trusted, especially this early in the investigation, and their instincts said
+that there was something behind all of this &#8211; something sinister, something
+that needed to be stopped, and behind it all, there was a case that could make
+their&nbsp;careers.</p>
+<p>Bereft of clues, they decided to go back to the source, to the only witness
+to the crime, even though he hadn&#8217;t been able to tell them anything useful on
+their first visit. Perhaps he&#8217;d remember more&nbsp;now.</p>
+<p>“Well, Mr. Mendocino, we&#8217;re hoping you can give us some more information.
+You see, we&#8217;ve been around talking to a lot of homeless people today, and
+they&#8217;ve given us some leads, but we really need a description of your&nbsp;assailants.</p>
+<p>“Admittedly, this is a long shot, but we think the men who killed Darryl –
+that was the name of the homeless man we found with you &#8211; and shot you are
+possibly connected to a lot other violent crime, especially among the
+homeless. Obviously, if these guys have escalated to m ur der and have a
+history of violence, we&#8217;re probably going to see a lot more needless deaths if
+we don&#8217;t find them&nbsp;soon.”</p>
+<p>Joel protested, “Well, I already told you what I know&#8230; I&#8217;m not sure what
+else you want me to try and remember. I didn&#8217;t really get a good look at
+them&#8230;” This wasn&#8217;t entirely true. In fact, Joel had gotten a solid look at
+their faces, but he hadn&#8217;t been paying attention. After all, they were
+pointing a gun at him. He wasn&#8217;t making mental notes about their shoe size or
+the number of freckles on their faces at that&nbsp;point.</p>
+<p>His mother joined in the protest. “Detectives, my son just got shot! Can&#8217;t
+you give him a little time to recover before you come in here barraging him
+with questions and&nbsp;making&#8230;”</p>
+<p>“Monica,” Joel&#8217;s father interrupted. “They&#8217;re just trying to find the men
+that did this. Joel can say no if he wants to. It&#8217;s his&nbsp;decision.”</p>
+<p>Ames continued. “Well, what we&#8217;d like to do, Joel, if I may call you that,
+is just have you relax and concentrate on the experience as you think back on
+it. We&#8217;ve found that many times, if you just relax and focus on a single
+element of your memory, you can recall things that you forgot or didn&#8217;t even
+fully realize&nbsp;before.”</p>
+<p>Joel nodded. He wasn&#8217;t terrible keen on trying to think back on the
+experience of getting shot, but if it would help the detectives find the men
+and possibly save someone else, then it would be worth his&nbsp;discomfort.</p>
+<p>Ames motioned outside Joel&#8217;s door, where a young woman stood with a large
+sketch pad and an assortment of pencils in her&nbsp;arms.</p>
+<p>“Joel, this is Karen, one of the artists on our staff down at the station.
+She&#8217;s just going to try and draw some sketches based on the descriptions that
+you can give us. Don&#8217;t worry about her. Just close your eyes and ell us what
+you can. We&#8217;ll do the&nbsp;rest.”</p>
+<p>Joel laid back against the pillow and shut his eyes as Karen moved yet
+another chair into the cramped suite and sat down, pencil at the&nbsp;ready.</p>
+<p>He thought back to the delicious taste of the bagel on his tongue, the feel
+of the concrete and loose gravel as it crunched under his feet, and the
+feeling of sudden isolation he felt upon discovering he was&nbsp;lost.</p>
+<p>He was standing in the empty alien alley again, turning round and round,
+looking for signs of familiarity, but he found&nbsp;none.</p>
+<p>“I was in this alley that I&#8217;d nev er been in before &#8211; I didn&#8217;t know where I&nbsp;was.”</p>
+<p>Bang! There it was &#8211; the shot! But was it a shot, or just a firecracker, or
+a car&nbsp;misfiring?</p>
+<p>“I heard a loud shot, but I didn&#8217;t know what it&nbsp;was.”</p>
+<p>Then he was running, running, running towards the shot. Why was he running
+towards it? Why not away? His actions made no sense. He tried to force his
+body to turn, to stop, to at least slow, but he ran&nbsp;on.</p>
+<p>There were voices now&#8230; what had they&nbsp;said?</p>
+<p>“I heard them talking before I got there. One of them was yelling at the
+other for pulling the trigger and shooting the man, and he was saying he
+didn&#8217;t do it on&nbsp;purpose.”</p>
+<p>He rounded the corner &#8211; there they were, looking down at the dumpster, where
+the shot man was lying, his body obscured from Joel&#8217;s view by the&nbsp;dumpster.</p>
+<p>“<span class="caps">OK</span>, I see them now. They&#8217;re looking down at the man, but they don&#8217;t see me
+yet. The man with the gun is average height and build, dark brown hair,
+leather jacket, stubble on his face. The other man is a little shorter, say 5&#8217;
+5” or so, with blonde hair, clean shaven, and a light black windbreaker. Both
+of them are wearing&nbsp;jeans.”</p>
+<p>Ames glanced at Karen, then at Cobb. This description was so generic it&#8217;d be
+impossible to get Karen to create a useful drawing from it. Yet another dead&nbsp;end&#8230;</p>
+<p>They turned and spotted him. He felt a strange, uncontrollable sense of
+fear. The gun was pointed directly at him. The man was saying&nbsp;something&#8230;</p>
+<p>“Joel,” Cobb broke in. “Can you see any distinguishing features on either of
+the men? Something bout the way they walk, or a scar, or&nbsp;something?”</p>
+<p>“No, no, don&#8217;t shoot&#8230;” A sweat broke out on his brow and he shook his head
+from side to side on the pillow, eyes still clenched&nbsp;shut.</p>
+<p>“ Cal m down Joel, it&#8217;s all right,” Cobb continued. “Concentrate &#8211; is there
+anything that stands out in your&nbsp;mind?”</p>
+<p>Joel let out a gasp, then a low moan, then went limp on the bed. He was
+lying on the sidewalk, reeling in agony; his insides felt as though they&#8217;d
+been ripped apart. He looked up at the men as they t ur ned away, vaguely
+aware of Cobb&#8217;s voice trickling down from the&nbsp;heavens.</p>
+<p>Then, a sudden point of clarity &#8211; there, on the shooter&#8217;s hand, a mark. As
+they turned and ran, Joel willed himself to focus on that mark. Time slowed
+down; he stepped frame by frame through the scene, and zoomed in on the mark,
+bringing it into better focus. Then, suddenly, it was gone, and he was falling
+endlessly&nbsp;again.</p>
+<hr />
+<p>He awoke a few minutes later, amidst confused chatter and argument from his
+parents, the detectives, and Heather, who had come in after hearing the&nbsp;commotion.</p>
+<p>“Give me the paper,” Joel said. No response. “Give me the paper!” he said
+again, finally getting the attention of the others in the room. There was a
+moment of stunned silence, then Karen thrust her pad and pencil at him. She
+held the pad for him while he awkwardly sketched the mark he had seen on the
+page as best he&nbsp;could.</p>
+<p>He finished it, and handed the pencil back to Karen. “That mark was tattooed
+on the right hand of the shooter, between the thumb and forefinger. Now <em>that
+</em> is all I can remember.” He sunk back into the bed &#8211; he wanted peace, quiet,
+and&nbsp;sleep.</p>
+<p>Cobb and Ames looked at the picture, than at each other. Now <em>this</em> was
+something they could work&nbsp;with.</p>
+                                                            </article>
+            </div>                                                <div class="row">
             <div class="post-info two columns">
             <div class="post-date">
                                     <div class="month">NOV</div>
@@ -256,1044 +1113,6 @@ thrust his hand out at Holly, who took it and shook it firmly. Ned followed&nbsp
 <p>“Well, it ain&#8217;t much,” James said, motioning at the concrete slope alongside
 the drain pipe. “But have a seat&#8230; let&#8217;s talk about&nbsp;Darryl.”</p>
                                                             </article>
-            </div>                                                <div class="row">
-            <div class="post-info two columns">
-            <div class="post-date">
-                                    <div class="month">NOV</div>
-                    <div class="day">17</div>
-                    <div class="year">2004</div>
-                    <div class="permalink">
-                        <a href="/2004/11/november-16th/"
-                           title="Permanent link to 'November 16th'">∞</a>
-                    </div>
-                            </div>
-                                        <ul class="tags">
-                                            <li><a href="/tag/novel">novel</a>
-                        </li>
-                                            <li><a href="/tag/nanowrimo">nanowrimo</a>
-                        </li>
-                                    </ul>
-                    </div>
-                            <article class="post-content ten columns">
-                <time datetime="2004-11-17 PST"
-                      pubdate=""></time>
-                <header>
-                    <h1>
-                        <a href="        /2004/11/november-16th/">November 16th</a>
-                                            </h1>
-                </header>
-                                    <p>The scene faded out, movie like, and Joel was once again in the hospital.
-His body ached, but at least the sharp pain had dulled. <em>It must have been a
-dream</em>, he thought. A dream based on the memory of that tremendous night the
-three of them had shared. The following day he had said goodbye to both Pang
-and Sean, and had continued on his trip alone. He had taken Sean&#8217;s thoughts to
-heart, and had made a concerted effort throughout the rest of his trip to just
-sit back and take it all in; to fully absorb the experience and make it his.
-His only regret had been that Sean hadn&#8217;t made the comment&nbsp;earlier.</p>
-<p>But now, laying in the hospital bed, staring up at the ceiling, he wondered
-if Sean had been right. He didn&#8217;t feel like he had a lot of time. He had been
-<em>shot</em>! He felt robbed. This was supposed to be his triumphant return. He had
-learned so much, and now he was to apply it to his life, to make sense of
-everything, and to make things <em>better</em>. But instead some idiot had shot him,
-for no apparent reason, and he was laying in a hospital, probably barely
-clinging to his&nbsp;life.</p>
-<p>It seemed ludicrous. Fate had such a twisted sense of humor. He had gone so
-far, learned so much, only to be idle again, his brain left to stew and figure
-out ways to defeat&nbsp;itself.</p>
-<p>Heather appeared in the doorway again, looking as angelic as she had before.
-At least it wasn&#8217;t <em>all</em> bad around&nbsp;here.</p>
-<p>“Hi again, Joel. Feeling all right?” she asked softly, sitting down in the
-chair next to his bed. He looked over at her and smiled&nbsp;weakly.</p>
-<p>“I&#8217;m&nbsp;<span class="caps">OK</span>.”</p>
-<p>She smiled back. “Well, there are a couple of detectives here that would
-like to talk to you if you&#8217;re feeling up to it. They&#8217;re trying to figure out
-what&nbsp;happened.”</p>
-<p>Joel nodded.&nbsp;“<span class="caps">OK</span>.”</p>
-<p>Heather stood up and signaled to the two men waiting outside, then moved to
-the back of the room as they&nbsp;entered.</p>
-<p>“Good afternoon, Mr. Mendocino, I&#8217;m Detective Cobb, and this is my partner,
-Detective Ames. We know you need to rest, but it would really help us out if
-you could tell us what&nbsp;happened.”</p>
-<p>Joel closed his eyes and thought back to the plane, to the train ride, to
-the bagel, and to the altercation in the alley &#8211; all of the events that had
-happened since his return. His thoughts were muddy, everything seemed to run&nbsp;together.</p>
-<p>“I was walking to my apartment&#8230;” he began. “I had gotten off the train,
-and had stopped by Dominick&#8217;s to get something to&nbsp;eat.”</p>
-<p>Ames interrupted, “We found you a few blocks east of your apartment? How did
-you wind up&nbsp;there?”</p>
-<p>Joel furrowed his brow, trying to remember exactly what had happened. “I
-don&#8217;t know,” he responded. “I wasn&#8217;t really paying attention. I was pretty
-tired and wasn&#8217;t concentrating. I remember hearing a loud bang and running
-towards it&#8230; there were two men there, and one of them had a gun. I pleaded
-with them, but they were crazy. The guy with the gun just shot me for no
-reason, then they ran&nbsp;off.”</p>
-<p>“I didn&#8217;t see the other guy on the ground until after I got shot. I picked
-him up and tried to walk to the street, but I don&#8217;t know how far I made it.
-That&#8217;s all I remember.” He laid back against the pillow. The pain was growing&nbsp;again.</p>
-<p>“Did you know the other man?” Cobb asked, taking notes on a small&nbsp;notepad.</p>
-<p>“No. Is he&nbsp;<span class="caps">OK</span>?”</p>
-<p>“Unfortunately, he was dead when we found you. From what the doctor tells
-me, you barely made it&nbsp;yourself.”</p>
-<p>Joel groaned. The pain was becoming unbearable again. “I think that&#8217;s enough
-for now, Detectives,” Heather spoke up as she moved towards Joel&#8217;s bedside&nbsp;again.</p>
-<p>Cobb nodded. “<span class="caps">OK</span>, Mr. Mendocino. Thanks a lot for your help. We&#8217;ll let you
-know if we find anything.” The detectives turned and exited, and Joel
-floundered, feeling for the plunger that would bring him relief. Heather
-placed it back in his hand and he pressed it, feeling the relaxing drug flow
-wonderfully through him&nbsp;again.</p>
-<p><strong>Chapter 16:&nbsp;Angelo</strong></p>
-<p><em>Breakin&#8217; the law, breakin&#8217; the&nbsp;law&#8230;</em></p>
-<p><em>Breakin&#8217; the law, breakin&#8217; the law&#8230;</em> Mike sang along with the Judas
-Priest song blaring on the radio as he hurtled down the highway at high speed,
-weaving in and out of traffic, using the shoulder as his own private lane. He
-felt __. In fact, he felt invincible! He was going to go to Angelo&#8217;s
-seedy “office,” explain the situation to him, and if he didn&#8217;t understand,
-then tough&nbsp;shit.</p>
-<p>He was sick of taking it up the ass from everyone. Bill at work, Marie at
-home, and Angelo&#8230; he was sick of it. It was going to stop today &#8211; <em>now</em>.</p>
-<p>He abruptly noticed his exit on the left and swung the wheel dramatically,
-cutting across the four lanes of traffic that separated him and the exit, and
-laughed aloud as the cars behind him slammed on their brakes and their horns.
-He was in control &#8211; everyone else still worried about their cars, their jobs,
-their <em>lives</em>, but he was free. He didn&#8217;t care about any of it anymore, and
-<em>that</em> made him&nbsp;powerful.</p>
-<p>He careened toward the old warehouse that Angelo called his office, just
-east of the highway, in a part of town that was about as far from ritzy as you
-could get. Mike didn&#8217;t know exactly which arm of the underworld Angelo worked
-for, but he knew he wasn&#8217;t all that powerful. If he had been, Mike would never
-had seen him &#8211; he would be protected behind other, more expendable&nbsp;characters.</p>
-<p>Angelo was not to be underestimated, though. He had quite a temper, despite
-his cold, calculating persona, and enough goons under his control that Mike
-knew it would be suicidal to approach Angelo violently. That wasn&#8217;t his goal,
-at least at this&nbsp;point.</p>
-<p>He parked the oversized <span class="caps">SUV</span> in the empty lot across from Angelo&#8217;s abandoned
-warehouse, wondering as he stepped out of the vehicle just <em>how</em> Marie had
-managed to talk him into buying something so obviously out of place in a city.
-He locked the door remotely, a happy beep-beep confirming the vehicle&#8217;s
-supposed security as he stepped towards the warehouse&nbsp;entrance.</p>
-<p>He looked at the dilapidated brick and faded signs posted on the outside of
-the warehouse. Angelo really didn&#8217;t keep his place in very good condition,
-considering his annual income &#8211; all tax-free, Mike noted. It really wasn&#8217;t a
-bad deal, if you could handle the constant worry of law enforcement and the
-threat of prison. Not a bad deal at&nbsp;all.</p>
-<p>Mike pounded on the door with his fist, then stepped away, anticipating the
-burly guard who swung the door open and inquired in a gruff voice. “Whaddya&nbsp;want?”</p>
-<p>“I&#8217;m here to see Angelo about a payment,” Mike replied, brushing past the
-guard as he spoke. The door closed behind him, and the small sliver of
-sunlight disappeared. Mike stopped, waiting for his eyes to adjust to the
-dimly lit interior of the&nbsp;warehouse.</p>
-<p>European techno-pop blasted from a deceptively small boom box in the corner,
-where a group of card players seated around a table ignored his entrance
-completely, engrossed in their own game of&nbsp;chance.</p>
-<p>On his left, a group of shady-looking characters stood next to a makeshift
-bar constructed of stacked crates and other miscellaneous junk; they regarded
-him with little interest as he walked on down towards Angelo&#8217;s main place of
-business in the back of the warehouse, maneuvering around crates of random
-items as he&nbsp;went.</p>
-<p>The guard who&#8217;d granted him passage trailed behind him, monitoring his
-travel and ensuring he didn&#8217;t deviate from his stated purpose of visiting&nbsp;Angelo.</p>
-<p>Upon reaching the door to what had been the warehouse&#8217;s small records
-office, he knocked quickly three times and twisted the doorknob, not waiting
-for the invitation to enter. There Angelo sat before him on the small love
-seat facing the door, three rather long lines of cocaine laid out on the low
-coffee table in front of him. A thin waif sat next to him, rouge and blush
-smeared clumsily on her once-attractive&nbsp;face.</p>
-<p>Angelo looked up from the table, and seeing Mike, broke into a smile.
-“Mike!” he stood, opening his arms in welcome. “You know, I was just thinking
-about you. Here, here&#8230;” He motioned at the table in front of him. “Join me,
-there&#8217;s plenty for&nbsp;everyone.”</p>
-<p>The girl bent down and inhaled one of the lines, whimpering softly upon its
-completion, then laid back in the love seat, bringing her hand to her nose as
-her pupils dilated and the stimulant began to take&nbsp;effect.</p>
-<p>“No thanks,&nbsp;Angelo.”</p>
-<p>“No? Well, more for me, I suppose.” He sat down and promptly inhaled both
-remaining lines, one in the left nostril and the other in the right, shaking
-his head hard when he was done. He looked up at Mike again, his nose bright
-red and an unfocused look in his&nbsp;eyes.</p>
-<p>“Well, where is&nbsp;it?”</p>
-<p>“I don&#8217;t have it,” Mike stated&nbsp;calmly.</p>
-<p>Angelo raised his eyebrows. “You don&#8217;t have&nbsp;it?”</p>
-<p>Mike nodded. “I don&#8217;t have&nbsp;it.”</p>
-<p>Angelo stood again and approached Mike slowly. His five-foot-three frame was
-dwarfed next to Mike&#8217;s, but the maniacal gleam in his eyes indicated to Mike
-that he meant business. Mike stood his&nbsp;ground.</p>
-<p>“Mike, your debt isn&#8217;t due until the end of the month, but you know the&nbsp;rules.”</p>
-<p>Mike did know the rules, but he knew that that wouldn&#8217;t stop Angelo from
-reminding him of them now. Angelo seemed to take special pleasure in reminding
-people of the rules after they&#8217;d already been&nbsp;broken.</p>
-<p>“The only reason you come to visit me unannounced is to pay off a debt.
-Anything else, you call me and I <em>invite</em> you here or we deal with it over
-the phone. You know how it works.” The girl on the couch looked up at them
-both and giggled, giddy with the coke and tension in the&nbsp;room.</p>
-<p>“Shut up, bitch!” Angelo turned and yelled at her, causing the smile to melt
-right off her face. He turned back to&nbsp;Mike</p>
-<p>Mike nodded. “I know, Angelo, but I wanted to come and tell you in person
-that I won&#8217;t be able to pay you back&#8230;&nbsp;ever.”</p>
-<p>Angelo raised his eyebrows even higher in disbelief. “Ever?&nbsp;Hmmm&#8230;”</p>
-<p>He turned, clasping his hands behind him as he paced slowly in the small
-room. “Well, I certainly appreciate the gesture, Mike, but as you know, I
-don&#8217;t run that kind of business. Around here, we have strict rules that we
-adhere to, and when someone breaks them, they&#8217;re punished. And whether you&#8217;ll
-have the money by the time it is due or not is really irrelevant to these
-proceedings. You came to visit me uninvited, without payment, which is an
-egregious breach of the contract you and I arranged at the time you bet on
-that horse. What was it&#8217;s name?” He paused, trying to remember the name, then
-resumed his pacing when the name eluded&nbsp;him.</p>
-<p>Mike became aware of the guard from the entranceway behind him. “Well, it
-doesn&#8217;t matter what it&#8217;s name was now, I&nbsp;suppose.”</p>
-<p>The guard reached towards Mike&#8217;s arm, but Mike was prepared. He&#8217;d been
-waiting for this moment. He sidestepped, grabbing the guards own wrist as he
-reached for Mike&#8217;s, and thrust his body against the guards, forcing him off
-balance and sent him tumbling towards the cocaine powdered coffee&nbsp;table.</p>
-<p>He smashed face first into it, sending shards of imitation wood throughout
-the room. The girl screamed and picked her feet off the floor just in time to
-avoid getting them smashed by the falling body. Angelo moved towards the
-falling twosome, and Mike pushed himself off of the falling body and whirled
-around 180 degrees, grasping his hands together as he spun. His two united
-fists collided with Angelo&#8217;s cheek as he completed his spin, sending Angelo&nbsp;reeling.</p>
-<p>Mike didn&#8217;t skip a beat. He separated his hands and pounced on Angelo while
-he was still off balance, pinning him against the wall and grabbing him around
-the neck. He was in control, and it felt good. He searched Angelo&#8217;s face for
-signs of fear, but there were&nbsp;none.</p>
-<p>“You motherfucker,” Angelo squeaked, pushing hard on Mike&#8217;s hands with his
-own, trying to release Mike&#8217;s strangle hold, but it was&nbsp;useless.</p>
-<p>“You don&#8217;t control me, Angelo!” Mike yelled, squeezing his hands tighter
-around the soft flesh of Angelo&#8217;s neck. His face was turning a satisfying
-color of red. “I&#8217;m going to fucking kill you, just like I killed that other
-fucking&nbsp;prick.”</p>
-<p>The feeling of complete supremacy that he&#8217;d had while pounding away on
-Marie&#8217;s lover returned. He <em>was</em>&nbsp;invincible.</p>
-<p>He felt a sharp pain on the back of his neck and felt his muscles go
-suddenly limp, then another strike to the back of his skull brought complete&nbsp;blackness.</p>
-<p>Angelo pushed his motionless body off of him, inhaling deeply to regain his
-composure. He leaned on Marty, who had come to his rescue from the interior of
-the warehouse, catching his breath. He kicked Mike&#8217;s body as hard as he could.
-“Who&#8217;s in control now,&nbsp;bitch?”</p>
-                                                            </article>
-            </div>                                                <div class="row">
-            <div class="post-info two columns">
-            <div class="post-date">
-                                    <div class="month">NOV</div>
-                    <div class="day">16</div>
-                    <div class="year">2004</div>
-                    <div class="permalink">
-                        <a href="/2004/11/november-15th/"
-                           title="Permanent link to 'November 15th'">∞</a>
-                    </div>
-                            </div>
-                                        <ul class="tags">
-                                            <li><a href="/tag/novel">novel</a>
-                        </li>
-                                            <li><a href="/tag/nanowrimo">nanowrimo</a>
-                        </li>
-                                    </ul>
-                    </div>
-                            <article class="post-content ten columns">
-                <time datetime="2004-11-16 PST"
-                      pubdate=""></time>
-                <header>
-                    <h1>
-                        <a href="        /2004/11/november-15th/">November 15th</a>
-                                            </h1>
-                </header>
-                                    <p><strong>Chapter 14:&nbsp;Watson</strong></p>
-<p>Ernie wasn&#8217;t his usual self. His thoughts had cleared a bit since he had
-first set his eyes on Darryl&#8217;s motionless body, but the image kept coming back
-to him at inopportune times, sending a shudder through his body each&nbsp;time.</p>
-<p>Ken was riding alongside him, occasionally breaking off to scout out ahead
-in a large circle, then riding back to resume a slower pace beside him. The
-both of them were headed to Elston Memorial hospital to see the other guy
-who&#8217;d been shot. Ken had said his name was&nbsp;Joel.</p>
-<p>Ernie wasn&#8217;t particularly interested in any of this, but Ken seemed excited
-about trying to figure out what had happened, and Ernie felt it necessary to
-come along, if only to keep Ken company. They had, in the past, kept each
-other out of trouble by posing as father and son, or uncle and nephew, or any
-one of a number of fictitious relationships that proved advantageous in
-certain situations. It had gotten them out of a few scrapes, and rewarded Ken
-with a rather large collection of otherwise unattainable mens&#8217;&nbsp;magazines.</p>
-<p>Ernie&#8217;s thoughts wandered back to what Darryl had said that day in the
-dining hall at St. Ives. He wasn&#8217;t much of an analytical thinker. He knew he
-had been frightened at the tone of Darryl&#8217;s voice, and he&#8217;d made it a point to
-remember exactly what he&#8217;d said, even though his memory was especially
-terrible. But what could the meaning have been? It seemed obvious that
-Darryl&#8217;s comments and his death were somehow linked, but how, Ernie didn&#8217;t&nbsp;know.</p>
-<p>Ken returned from one of his scouting trips and said hurriedly, “Come on,
-Ernie, let&#8217;s <em>go</em>! We&#8217;re almost there.” He motioned to the large riding pegs
-mounted on his rear wheel. “Hop on&#8230; it&#8217;ll be&nbsp;faster.”</p>
-<p>Ernie grimaced as he stepped up onto the pegs and gripped Ken&#8217;s shoulders
-for balance. He hated riding with Ken this way &#8211; he much preferred to walk.
-But when Ken was in a hurry, there was no arguing with him, so Ernie held on
-tightly and together they zoomed down the shallow hill towards Elston&nbsp;Memorial.</p>
-<p>Ken was right; the bike was faster, and the looming multistoried building
-that was Elston Memorial was soon upon them. The hospital wasn&#8217;t as busy as
-Ken and Ernie had imagined. The parking lot was only half-full, and the
-occasional flashing lights and flurry of activity at the emergency room
-entrance as an ambulance drove up was the only sign of life in the entire
-hospital&nbsp;grounds.</p>
-<p>Ken wheeled around the parking lot, weaving between parked cars, and Ernie
-held on more tightly. He knew Ken was doing this for his benefit. He&#8217;d have to
-get him back later. He had to admit that the wind rushing through his hair
-felt nice, though. If he could get the fear of falling off out of his head,
-riding with Ken might actually be <em>fun</em>.</p>
-<p>Ken pulled to a stop in front of the main entrance and pulled his chain lock
-around the front tire, locking it securely. Together he and Ernie walked into
-the&nbsp;hospital.</p>
-<p>Ernie wasn&#8217;t exactly sure what Ken&#8217;s plan was, but hopefully it&#8217;d be
-something they&#8217;d done before. Ernie didn&#8217;t improvise well, but they had a
-large enough repertoire of practiced scams that improvisation was rarely&nbsp;necessary.</p>
-<p>They approached the front desk and Ken peered over the counter at the nurse
-sitting there. “We&#8217;re here to see Joel Mendocino,” he&nbsp;said.</p>
-<p>The nurse looked over at them. “<span class="caps">OK</span>, friends or family?” She addressed the
-question to Ernie. Ken interjected, “My uncle&#8217;s deaf; you&#8217;ll have to have me
-ask him questions in sign language. But we&#8217;re family. Joel&#8217;s my cousin. We
-heard something had happened to him, and that he&#8217;d been taken&nbsp;here.”</p>
-<p>Ernie was relieved; no quick thinking would be necessary today. The deaf
-uncle role was one with which he was very familiar. Neither he nor Ken really
-knew sign language, but they had perfected a series of motions that convinced
-most people they were really communicating, and if faced with someone who
-actually did know <span class="caps">ASL</span>, they would simply say that Ernie had learned a little
-known Eastern European signing style, and leave it at that. It was a simple
-scam, but worked amazingly&nbsp;well.</p>
-<p>The nurse turned back towards the computer in front of her. “Mendocino, you
-say? Hmmm, he&#8217;s still in surgery. He should be out in the next hour or so, but
-he&#8217;ll be unconscious for awhile after that. I&#8217;m afraid I can&#8217;t let you see&nbsp;him.”</p>
-<p>Ken frowned. This wasn&#8217;t working out at all like the mystery novels he&#8217;d
-been reading. He&#8217;d have to think of something else. Ken motioned at Ernie with
-his hands. Ernie responded, waving his hands in a strange wavy&nbsp;arc.</p>
-<p>“My uncle wants to know if anyone else in his family has been contacted, or
-if anyone else has come to see&nbsp;Joel.”</p>
-<p>The nurse examine her monitor again. “Well, it looks like the police have
-contacted his parents. They should be here&nbsp;shortly.”</p>
-<p>Ken and Ernie exchanged hand motions again. “<span class="caps">OK</span>, thanks a lot miss. You have
-a nice day.” The two of them turned and walked out of the hospital back into
-the afternoon sun. Ernie suddenly realized he was getting&nbsp;hungry.</p>
-<p>Ken seemed to read his mind. “Let&#8217;s get something to eat, Ernie. You think
-Rhonda would mind if I ate with you at St. Ives?” Ernie nodded. Unlike the van
-Zandt&#8217;s, Rhonda&#8217;s kitchen was open to everyone. Ernie&#8217;s rumbling stomach got
-the better of him and he hopped on the back of Ken&#8217;s bike. Ken knew a few
-short cuts, which combined with the faster speed of the bike would put them
-back at St. Ive&#8217;s in pretty good&nbsp;time.</p>
-<hr />
-<p>As Ken dodged the large puddles of water behind the Dominick&#8217;s, one of his
-favorite shortcuts, Ernie glanced over behind the store, and glimpsed the nice
-girl from the store talking with two other strange looking men. He didn&#8217;t
-recognize the other man that stood with them, but he was dressed the same way
-the girl was, so he probably worked with&nbsp;her.</p>
-<p>He tapped on Ken&#8217;s shoulder, signaling him to stop. Ken put on the brakes
-and looked over his shoulder. “What is&nbsp;it?”</p>
-<p>Ernie motioned towards where the girl and her companions stood talking. The
-girl had started to cry and the her apparent coworker was hugging&nbsp;her.</p>
-<p>Ken knew what Ernie was thinking. He turned the handlebars and wheeled
-around the sidewalk towards the back of the store, staying within the bounds
-of the alley in order to appear as though the two of them were just innocently
-riding by. After they cleared the back wall of the store, he stopped and they
-both dismounted. He laid the bike down on the asphalt and together they poked
-theirs heads around the wall, peering surreptitiously at the motley group
-before&nbsp;them.</p>
-<p>The two strange looking men turned and walked back towards the store,
-forcing both Ken and Ernie to quickly hide their heads back behind the wall to
-avoid being seen. After a minute, Ken slowly stuck his head back around and
-looked again. The coast was clear this time; the two men were gone, and the
-girl stood with her head against her coworker&#8217;s chest, crying&nbsp;quietly.</p>
-<p>“Ernie, you know her, right?” Ken turned and looked back at Ernie, who was
-still pressed against the wall, eyes closed. “Don&#8217;t worry, they&#8217;re gone. I
-don&#8217;t think they saw&nbsp;us.”</p>
-<p>Ernie opened his eyes and relaxed slightly, then nodded in response to Ken&#8217;s&nbsp;inquiry.</p>
-<p>“Well, let&#8217;s go talk to her. I&#8217;m think she knew Darryl.” Ernie nodded again.
-He was aware that the girl and Darryl knew each other; in fact, Darryl was
-partly responsible for introducing Ernie to her in the first&nbsp;place.</p>
-<p>Ken picked his bike up off the asphalt and together they rounded the corner
-and walked towards the girl and her&nbsp;companion.</p>
-<p>Holly noticed them approaching and smiled at Ernie amidst her tears. She
-broke from Ned&#8217;s arms and walked over to meet them, a small smile on her face
-despite the tears in her eyes. “Hi, Ernie,” she said, wrapping her arms around
-him in a short&nbsp;embrace.</p>
-<p>“Hi&#8230;” Ernie replied softly, willing himself to remember her&nbsp;name.</p>
-<p>“Holly,” she smiled as she pulled away from him. She giggled softly, then a
-sad looked reappeared on her&nbsp;face.</p>
-<p>“Did you hear about Darryl?” she asked. Ernie nodded, sadness enveloping his
-face as well. Holly looked down at her feet. “Do you know what&nbsp;happened?”</p>
-<p>Ernie nodded again, memories of Darryl&#8217;s face in the ambulance swirling in
-his mind once again. They stood in silence for awhile, looking at their feet,
-thoughts of Darryl pin balling between&nbsp;them.</p>
-<p>Holly looked up a few minutes later, dried tears on her face, the sign of
-deep thought in her eyes. “Do you think maybe some of the guys down at the 59
-th Street bridge might know what happened to him?” Ernie looked up at her and
-locked his gaze with her clear green eyes. He&nbsp;shrugged.</p>
-<p>They looked down at the asphalt again, until Holly turned to Ned, who had
-quietly approached from behind them. “What time do you get off work,&nbsp;Ned?”</p>
-<p>“Three o&#8217;clock today,” he said, glancing at his&nbsp;watch.</p>
-<p>“Me too,” Holly replied. “Fancy a trip down to 59 th Street&nbsp;?”</p>
-<p>Ned shrugged. How could he refuse her now, with her tear-stained face and
-bright, expectant&nbsp;eyes?</p>
-<p>Holly turned back to face Ernie, who was gazing at his feet once again.
-“We&#8217;re going to go to 59 th street to talk to some of the guys there at 3
-o&#8217;clock, if you want to come, Ernie.” She glanced at Ken to make sure he&#8217;d
-heard the time, knowing Ernie wouldn&#8217;t remember it. She looked back at Ned.
-“Well, I guess you and I had better get back to&nbsp;work.”</p>
-<p>Ernie looked up again and nodded in affirmation before turning slowly and
-walking back towards the alley beside the store and the sanctuary of St. Ives.
-Holly called over his shoulder at him as Ken walked his bike up alongside&nbsp;him.</p>
-<p>“Ernie, I <em>am</em> sorry. I know Darryl was your friend too.” Holly turned and
-followed Ned back into the store. Ernie kept walking towards St. Ives, Ken
-alongside&nbsp;him.</p>
-<p><strong>Chapter 15:&nbsp;Awakening</strong></p>
-<p>Joel awoke in the hospital, only vaguely remembering how he&#8217;d gotten there.
-The circumstances surrounding his arrival at the hospital were not at the
-forefront of his mind &#8211; the pain he was in was. His side ached terribly.
-Looking down at his torso, he saw the white gauze covering it. He groaned as
-his movement shot white hot pain through his entire&nbsp;abdomen.</p>
-<p>He rubbed his head and moaned again. His movement seemed to have set off a
-chain reaction of pain within his body that now radiated from his stomach
-through to the tips of his fingers. The door opened quietly and a strikingly
-attractive nurse glided&nbsp;in.</p>
-<p>She smiled compassionately down at him and reached down to cover him with
-his blanket. He hadn&#8217;t even realized he was so cold, but her firm warm hands
-on his body made its uncontrollable shaking that much more&nbsp;apparent.</p>
-<p>“Hi, Mr. Mendocino. My name is Heather. It&#8217;s good to see you awake. Try not
-to move too much. Your body needs some time to try and recover. I know you&#8217;re
-in a lot of pain. We&#8217;ve got you hooked up to a morphine drip, so just push on
-this to administer yourself another dose.” She placed a small white cylinder
-in his hand and gently wrapped his fingers around&nbsp;it.</p>
-<p>“Joel&#8230;” he&nbsp;murmured.</p>
-<p>“Excuse me?” Heather&nbsp;replied.</p>
-<p>“Joel&#8230;” he swallowed. “ Cal l me&nbsp;Joel.”</p>
-<p>Heather smiled. He pushed the small button on the top of the white cylinder
-and felt a wonderful warmness spread throughout his body. He relaxed almost
-immediately and lay back against the soft pillow. He sighed. Heather&#8217;s smiling
-face was the last thing he saw before he drifted off to sleep again, oblivious
-to the two men who stood outside his door, arguing with the&nbsp;doctor.</p>
-<hr />
-<p>“So what do you think,&nbsp;Joel?”</p>
-<p>Joel looked around to get his bearings. Where was he? He examined his
-surroundings slowly, taking in the dark claustrophobic walls of the building
-he was in, the light painting soft silhouettes against the tables and chairs,
-the murmur of mouths loosened by too much alcohol. This was the bar that he,
-Sean and Pang had gone to the night before Sean headed back to the States. He
-remembered&nbsp;now.</p>
-<p>Sean repeated the question, getting Joel&#8217;s attention.&nbsp;“Huh?”</p>
-<p>“Wow Joel, you can be so spacey sometimes!” Sean and Pang both laughed. Joel
-chuckled as well. “Come on, what&#8217;s the most important thing you want to do
-before you&nbsp;die?”</p>
-<p>Joel looked down at his nearly empty cup of beer, now warm. “I don&#8217;t know,”
-he said. “There&#8217;s a lot of experiences I want to have, you know? I mean, the
-reason I came all the way over here was to try and figure things out, to find
-out who I am, to experience parts of the world I&#8217;ve only read about, you
-know?” Sean and Pang grinned and nodded in&nbsp;understanding.</p>
-<p>“But I feel like I&#8217;ve wound up with more questions than answers. I feel even
-more confused than I did when I came. This whole trip has made me realize that
-there&#8217;s so many things in the world that I will nev er see, let alone
-understand, and how can I have an impact on anything, when the world is so
-big, and I understand so little of it.” He became conscious that he was&nbsp;rambling.</p>
-<p>“I guess I just feel like it doesn&#8217;t matter what I do in the end, and that&#8217;s
-disheartening for me, because I need to feel like what I do matters, that it
-has an effect&#8230;” He looked down at his beer again and took the final swig of&nbsp;it.</p>
-<p>“Well, you know&#8230;” Pang began. Sean groaned, rolling his eyes and burying
-his head in his hands. “ Cam us might say that life&#8217;s all about amassing
-experience, and that it doesn&#8217;t really matter what you do, or what effect you
-have, it only matter&#8217;s what experiences&nbsp;you&#8230;”</p>
-<p>“Oh come off it, Pang.” Sean interrupted good-naturedly. They all laughed.
-Pang had a habit of bringing up literature or philosophy at somewhat random
-points in a conversation, and Sean, not being the most scholarly person one
-would ever meet, always ended up confused. None of them could deny the simple
-facts though; they had all come to Asia by different means, but searching for
-the same thing: answers to the big questions, or at least a compass to help
-them find the right&nbsp;direction.</p>
-<p>Joel sighed, peering once again into his now empty glass of beer. “I used to
-think I had the world figured out,” he murmured. “I used to think that life
-was just a simple equation, and if I could figure out all the variables and
-all the constants, I could solve it and be happy. But it&#8217;s not that simple is
-it?” It was a rhetorical question, and there was a brief moment of silence
-before Sean&nbsp;interjected.</p>
-<p>“You two,” he said, shaking his head. “I ask a <em>simple</em> question about what
-you guys want to do before you die, and <em>you</em> start talking about literary
-themes, and <em>motifs</em>, and all that <em>crap</em>, and <em>you</em> go off on this sad sob
-story about how you can&#8217;t figure life out. And to think I came all the way
-around the world just to run into two self-indulgent idiots like you&nbsp;guys.”</p>
-<p>Pang and Joel exchanged satisfied glances. They enjoyed making Sean&nbsp;squirm.</p>
-<p>“Since you guys can&#8217;t give a straight answer, I guess I&#8217;ll have to show you
-how it&#8217;s done.” He sat up straight in his chair, pausing for dramatic effect
-before continuing. “I would be totally complete, if I could do only one thing
-before I die.” He paused again, milking the attention that Pang and Joel were
-paying&nbsp;him.</p>
-<p>“Just one date with Natalie Port man. That&#8217;s all.” He pushed back from the
-table as Pang and Joel burst out in&nbsp;laughter.</p>
-<p>“What? I think it&#8217;s a noble pursuit! And trust me, with my charm and good
-looks, she&#8217;ll be putty in my hands. <em>Putty! </em>” He nodded&nbsp;confidently.</p>
-<p>The other patrons of the bar shot confused glances over at Pang and Joel,
-who were laughing raucously, pounding on the table in an effort to rid
-themselves of the excess energy the mental image of Sean on a date with
-Natalie Portman had given&nbsp;them.</p>
-<p>Sean pulled his chair back into the table as their laughter died down and
-the din of the bar returned to&nbsp;normal.</p>
-<p>“Are you serious?” Joel asked, eyes still teary from the&nbsp;laughter.</p>
-<p>“Hell, yeah! In all honesty, there&#8217;s not much else I want or need right now,&nbsp;really.”</p>
-<p>“Yeah, I know, I feel the same way, but aren&#8217;t there things you want to see
-and experience while you can? I mean, you&#8217;re the one who asked the stupid&nbsp;question.”</p>
-<p>“Yes, there are plenty of things I want to see and experience, but I also
-try my hardest not to take for granted what I do have, and what I have been
-able to experience. I seriously think you&#8217;re just pining away for things that
-you haven&#8217;t had a chance to experience yet. I guess it&#8217;s a cliché, but you
-seriously seem to think the grass is greener on the other side, but you
-haven&#8217;t even tasted the grass on your side, you&nbsp;know?”</p>
-<p>Joe started to interrupt, but Sean held up his&nbsp;hand.</p>
-<p>“Wait a second. Think about this. You&#8217;re sitting in a bar in Thailand , on a
-trip to Asia you saved up for mont hs and mont hs to take, with two random
-people you met during your travels, shootin&#8217; the shit, and all you can talk
-about is how you&#8217;re worried that you don&#8217;t have it all figured out. Look
-outside, man, and remember where you <em>are</em>. Friggin&#8217; just enjoy&nbsp;it.”</p>
-<p>Joel looked out the open window, where the bustle of the nighttime street
-was slowing down gently, and the stars peeked out behind a haze of clouds that
-had earlier graced them with a gentle rain. The goofy oaf had a point. He
-sighed and let a smirk cross his face. Sean&nbsp;smiled.</p>
-<p>“You&#8217;ve got plenty of time to change the world, Joel, if that&#8217;s what you
-really want to do. Plenty of&nbsp;time.”</p>
-                                                            </article>
-            </div>                                                <div class="row">
-            <div class="post-info two columns">
-            <div class="post-date">
-                                    <div class="month">NOV</div>
-                    <div class="day">15</div>
-                    <div class="year">2004</div>
-                    <div class="permalink">
-                        <a href="/2004/11/november-13th-and-14th/"
-                           title="Permanent link to 'November 13th and 14th'">∞</a>
-                    </div>
-                            </div>
-                                        <ul class="tags">
-                                            <li><a href="/tag/novel">novel</a>
-                        </li>
-                                            <li><a href="/tag/nanowrimo">nanowrimo</a>
-                        </li>
-                                    </ul>
-                    </div>
-                            <article class="post-content ten columns">
-                <time datetime="2004-11-15 PST"
-                      pubdate=""></time>
-                <header>
-                    <h1>
-                        <a href="        /2004/11/november-13th-and-14th/">November 13th and 14th</a>
-                                            </h1>
-                </header>
-                                    <p>The lights downstairs were all off. The dishes from Mike&#8217;s breakfast earlier
-in the morning still sat in the sink; the soft sound of water drops echoed in
-the silent twilight of the&nbsp;room.</p>
-<p>Mike glanced around expectantly, all five of his sense on maximum awareness,
-ready to respond. Someone was in his house &#8211; he could feel it. Someone had the
-audacity to enter his home &#8211; <em>his home</em> &#8211; and do something &#8211; what he didn&#8217;t
-yet know &#8211; but whatever it was, he knew he wasn&#8217;t going to like&nbsp;it.</p>
-<p>He stepped quietly to the closet in the den and picked up his trusty
-baseball bat. If someone wanted to get physical with him, he was going to have
-something other than his fists to protect him. He still had seen no sign of
-the intruders, but he knew they were there somewhere, and he was going to
-introduce them to Big&nbsp;Bertha.</p>
-<p>Now armed with the bat, he moved slowly towards the stairs up to the second
-floor of the house. The creaking of the carpeted stairs hid the sounds
-floating down from upstairs until he made it to the narrow hall at the top of
-the&nbsp;stairs.</p>
-<p>Once there, the sound was clearly audible. He turned left towards it, bat
-held at the ready, and crept towards the bedroom. The perspiration collected
-in large beads along his forehead, then ran down into his eyes. He didn&#8217;t dare
-remove his hands from the bat to wipe them, and instead ignored the burning
-sensation and slightly blurred vision the saline sweat&nbsp;produced.</p>
-<p>He reached the bedroom, the apparent source of the sound. The door was only
-partly open, and he sidled alongside the doorway, back pressed against the
-wall. He peered inside the crack of the door, but nothing was&nbsp;visible.</p>
-<p>The sounds were growing louder. Soft, hushed breathing and occasional low
-moans had turned into groans and raspy, labored breaths, coming at a much
-greater frequency than before. Mike took a deep breath, gripped the handle of
-the bat till his knuckles turned white, turned and stormed into the bedroom,
-yelling at top of his&nbsp;lungs.</p>
-<p><strong>Chapter 12:&nbsp;Identification</strong></p>
-<p>“Wow, what a dump,” Cobb said as he stepped into the small one bedroom
-apartment. “Not much of a decorator, is he?” The apartment was bare except for
-a small unmade bed in the corner. The floor was bare cement, the normally
-white walls a light brown from months of city soot and&nbsp;grime.</p>
-<p>“Well, I guess you get what you pay for,” Ames commented as he moved deeper
-into the interior of the apartment. “Doesn&#8217;t look like there&#8217;s a whole lot
-here. The landlord did say the kid had been subletting the place, and that the
-other two tenants left about a month&nbsp;ago.”</p>
-<p>“Two people lived&nbsp;here?”</p>
-<p>“Well, not everyone has the benefits of a detective&#8217;s salary, Cobb,” Ames
-smiled wryly. Cobb shook his head in response. “Hard to believe, that&#8217;s&nbsp;all.”</p>
-<p>He detectives glanced around&nbsp;again.</p>
-<p>“Yeah, I don&#8217;t think there&#8217;s anything here. Maybe the kid was just coming
-back today. He did have those tickets in his&nbsp;backpack.”</p>
-<p>“All right. What&nbsp;next?”</p>
-<p>Cobb sat down on the bed, looking around the room in thought. “They said the
-other guy was most likely homeless, right?” Ames nodded. “Not too unusual in
-this part of town. I think there&#8217;s a shelter down on Sullivan. Maybe somebody
-there knows the&nbsp;guy.”</p>
-<p>“You read my mind. Let&#8217;s go.” He slapped his hands on his thighs and stood
-up, following Ames out of the ground floor apartment and back to their car.
-“You drive,” he said, throwing Ames the&nbsp;keys.</p>
-<p>Ames was surprised. “Say what? You never let me drive? What&#8217;s the&nbsp;deal?”</p>
-<p>“I just want to look around a bit. You&nbsp;drive.”</p>
-<p>Ames didn&#8217;t argue. Cobb was reticent as he started up the engine and pulled
-slowly out of the apartment complex and back onto the main road, making his
-way towards Sullivan Street&nbsp;.</p>
-<p>Cobb looked out of the passenger side window at the groups of homeless men
-and women underneath the bridges as they passed. Their faces were dirty, hair
-greasy, a broken, beaten look in their&nbsp;eyes.</p>
-<p>He thought back to the last summer he&#8217;d spent with his mother. He&#8217;d grown up
-in a neighborhood not unlike this one. He didn&#8217;t remember exactly how it had
-happened, but one day, his mother had come home from work telling him to pack
-his things into his small backpack, and they&#8217;d left the apartment that had
-been his&nbsp;home.</p>
-<p>They had walked forever that day, him with his backpack, his mother with a
-small blue suitcase. When evening fell, they had found shelter under a bridge
-with others like themselves &#8211; others with nowhere else to&nbsp;go.</p>
-<p>Cobb hadn&#8217;t liked it there at first. The cement was a hard, cold bed, and
-the others there had smelled funny, but his mother had held him close, told
-him that everything was going to be <span class="caps">OK</span>, and eventually he was able to fall&nbsp;asleep.</p>
-<p>Every day they followed the same routine &#8211; they&#8217;d get up, repack their
-belongings, and walk around the city streets, looking for whatever they could
-find. At first, his mother went into a few places looking for jobs. Cobb would
-sit out in front of the store, patiently watching his backpack and the blue
-suitcase, but every time his mother returned with a sad look on her face, and
-they started walking&nbsp;again.</p>
-<p>Eventually, his mother stopped looking for jobs and started looking for
-food. Cobb was always hungry, and so their lives became a constant search for
-sustenance. His mother would take his hand and they&#8217;d walk along the alleys,
-looking in dumpsters for food or other things that might prove valuable in
-trade to someone&nbsp;else.</p>
-<p>This had been his life for that summer. Towards the end, his mother had
-started leaving him under the bridge in the evening. She would return a few
-hours later, often with new bruises, but the next morning, his mother would
-pull out a small wad of crumpled cash, and they would go out and have a big
-breakfast, with orange juice, eggs, and pancakes, and sometimes, they&#8217;d go to
-the carwash and wash themselves with the hose. Those had been his favorite&nbsp;days.</p>
-<p>One day a policeman had stopped them on the street and had taken them to the
-police station. He had sat on the bench with his mother fearfully clutching
-her hand, and had cried incessantly when she said she had to go and he would
-have a new family and a new&nbsp;life.</p>
-<p>Social Services had placed him with a foster family, and he had gone back to
-school. The foster family was nice enough, but all he had really wanted was
-his mother. He hadn&#8217;t seen her since that day in the police station. He
-wondered now, as he peered out on the dirty faces, if perhaps one of them was&nbsp;her.</p>
-<p>Abruptly, the car turned onto Sullivan Street and Cobb was drawn back into&nbsp;reality.</p>
-<p>“There it is, at the corner, on the right,” said Ames quietly as they
-approached the St. Ives shelter. Cobb looked up at the large stone structure
-looming in front of them. The white brick exterior was worn and caked with
-city grime. The large orange neon cross above the entrance flickered “Jesus
-Loves You.” A few grubby, coated figures sat on the large stairs, sharing a
-cigarette between&nbsp;them.</p>
-<p>Ames pulled up next to the entrance and parked the car.&nbsp;“Ready?”</p>
-<p>“Yeah, let&#8217;s go.” Cobb pulled his jacket tighter around him as they exited
-the car and walked towards the figures sitting on the stairs. They seemed to
-have the right idea. He could really use a cigarette right now. He pulled one
-from his pocket and lit it as he and Ames took the stairs towards the&nbsp;entrance.</p>
-<p>“Better not smoke that inside,” one of the figures on the stairs said as
-they passed by. Cobb stopped and turned. “Why&nbsp;not?”</p>
-<p>“Rhonda won&#8217;t like it. She doesn&#8217;t let us smoke inside. Why else you think
-we&#8217;d be sittin&#8217; out here? Shit, it&#8217;s <em>warm</em> in there.” The man gestured
-towards St. Ives. The others sharing the cigarette&nbsp;laughed.</p>
-<p>Cobb handed the cigarette to the man. “Well, I guess you guys can have this
-one on&nbsp;me.”</p>
-<p>“Thanks, officer,” the man responded, accepting Cobb&#8217;s&nbsp;offer.</p>
-<p>“Is it that obvious?” Cobb asked, putting his hands in his jacket&nbsp;pockets.</p>
-<p>“Only cops move the way you two do,” the man responded, inhaling Cobb&#8217;s
-cigarette slowly before passing it along to the next one in the small&nbsp;circle.</p>
-<p>Cobb smiled. “Must be our police training.” A few men chuckled as he turned
-and followed Ames into the large St. Ives&nbsp;vestibule.</p>
-<p>“Sounds like Rhonda&#8217;s the one we want to talk to,” said Cobb as they hung
-their coats on the rack in the corner. Ames murmured in agreement, and they
-walked up the short staircase into the large dining hall. It was mostly empty,
-except for one of two men sitting at distant tables,&nbsp;eating.</p>
-<p>The only sounds seemed to be coming from a door at the far side of the room,
-so they walked in that direction, aware of the strong smell of food wafting
-more strongly as they&nbsp;approached.</p>
-<p>“They say it&#8217;s warm in here?” Ames commented as they entered the doorway to
-the kitchen. “Seems chilly to&nbsp;me.”</p>
-<p>“Wal, you try heatin&#8217; a big old place like dis wit what money we got!
-‘Sides, it&#8217;s warmer than outside, and that&#8217;s warm enough for most folks here.”
-Rhonda turned from the kitchen sink and wiped her hands on her&nbsp;apron.</p>
-<p>“Are you Rhonda?” Ames asked, stopping at the entrance to the&nbsp;kitchen.</p>
-<p>“Sho ‘nuff,” Rhonda replied. “And you must be cops. Only cops walk the way
-you do. What can I do for&nbsp;you?”</p>
-<p>Cobb interrupted, “Hi Rhonda, I&#8217;m Detective Cobb and this is my partner,
-Detective Ames. I don&#8217;t know if you&#8217;ve heard yet, but there were a couple of
-men found earlier this morning, and one of them is dead. He appeared to be
-homeless, so we were wondering if he&#8217;d have maybe come in here. We&#8217;re just
-trying to find out who he is and how he got&nbsp;shot.”</p>
-<p>“Shot? Well, dat&#8217;s a new one for one of my guys. Usually they do a pretty
-good job of staying out o&#8217; da way of guns. You got a picture?” Ames nodded,
-reaching into his jacket pocket for the&nbsp;Polaroid.</p>
-<p>“Ma&#8217;am, this is from the crime scene,&nbsp;so&#8230;”</p>
-<p>“Just let me see it. I&#8217;ve seen worse, I&#8217;m sure.” Rhonda walked over,
-accepted the picture, and inspected it with a frown on her face, shaking her&nbsp;head.</p>
-<p>“Yeah, this is Darryl. I don&#8217;t know his last name.” She shook her head
-again. “Poor guy. Guys around here call him da Squeegee Man, on ‘ccount o&#8217; his
-always cleaning car windows down on State Ave. Last time he came in, he was
-pretty beat up, but he didn&#8217;t seem to wanna talk about it. We don&#8217;t pressure
-‘em ‘round here. He ate a bit, talked to Ernie once, but didn&#8217;t stay the
-night. I hadn&#8217;t seem him since den.” She handed the picture back to Ames&nbsp;.</p>
-<p>“Do you know anything more about him? Any reason you can think of that he
-would have been shot?” Rhonda shook her&nbsp;head.</p>
-<p>“No, Darryl was a nice guy, real friendly and he&#8217;d talk your ear off if you
-let him. He was different last I saw him, though. Real quiet. Like I said, he
-was beat up. I spect he got in front of that bullet by accident &#8211; he wasn&#8217;t
-the kind to seek out&nbsp;trouble.”</p>
-<p>“<span class="caps">OK</span>. You mentioned he talked to Ernie last time he was here. Who&#8217;s&nbsp;Ernie?”</p>
-<p>Rhonda smiled. “He&#8217;s a reg&#8217;lar ‘round here. He&#8217;s not all right in the head,
-but he&#8217;s a sweet boy. He didn&#8217;t have anything to do with this, I can tell you
-dat. He used to talk to Darryl a lot; went out with him to State Ave.&nbsp;once.”</p>
-<p>“Any idea where we can find&nbsp;him?”</p>
-<p>“Wal, he usually goes down and hangs out with some kids around 34 th and
-Broadway, but I doubt you&#8217;ll get much from him. Ernie can&#8217;t describe things
-very well. His mind don&#8217;t work dat way. Tell you what, though, there&#8217;s a girl
-that some of da guys talk about ‘round here. She works up at the Dominick&#8217;s
-just up the street. Da guys say she&#8217;s real nice. I know Darryl knew her; Ernie
-does too. She might know somethin&#8217; more. Sometimes dey talk to other people
-better &#8211; they don&#8217;t tell me too much. Now, I&#8217;ve gotta get the rest of this
-food made, we&#8217;ll be having a large crowd here for lunch in a bit. ‘Scuse me.”
-She brushed pas Ames and Cobb and rummaged around the&nbsp;counter.</p>
-<p>“<span class="caps">OK</span>. Thanks a lot ma&#8217;am. If you hear anything just give us a call at the
-station.” Rhonda nodded, and Cobb turned back and left the kitchen, Ames close&nbsp;behind.</p>
-<p>“You want to head over to the Dominick&#8217;s?” Ames&nbsp;asked.</p>
-<p>“Might as well. Foster&#8217;s going to call us when the kid wakes up. Might as
-well try to figure out why the homeless guy&#8217;s&nbsp;dead.”</p>
-<p>Cobb pulled out another cigarette as they exited St. Ives. The men on the
-stairs were&nbsp;gone.</p>
-<p>“Maybe the kid was bein&#8217; held up or something, and this Darryl guy went to
-help him out. From what she said, he sounds like he might have done somethin&#8217;
-like that,” Ames commented as he unlocked the doors. “Am I still&nbsp;driving?”</p>
-<p>“Yeah.”</p>
-<hr />
-<p>Ned felt uneasy as soon as Cobb and Ames entered the store. There was a
-purposefulness in their walk that said they were on the job, they were looking
-for someone; this was not just friendly stop for donuts and&nbsp;coffee.</p>
-<p>Positioned at the register nearest to the entrance, he was their first stop.
-They flashed a badge. “Police. Can you call the manager down for a second? We
-need to speak with&nbsp;him.”</p>
-<p>Ned nodded and walked to the intercom mounted on the support beam behind the
-register. “Bob, please come to register one, Bob, to register one.” Bob was
-the nearest thing to a manager today. He wasn&#8217;t the big man himself, but he
-was in charge for the time&nbsp;being.</p>
-<p>Ned returned to his position behind the register. “He&#8217;ll be right over.
-Anything I can do for you&nbsp;gentlemen?”</p>
-<p>Ames looked at Cobb for confirmation. “We&#8217;re looking for a girl that works
-here, may be real friendly with the homeless guys that live around&nbsp;here.”</p>
-<p>They were talking about Holly, no doubt. “This girl in some kind of
-trouble?” Ned&nbsp;asked.</p>
-<p>“Not at all. There was a homeless man that was murdered earlier this
-morning, and we&#8217;re trying to identify him and figure out what happened. Rhonda
-from St. Ives said this girl might know&nbsp;him.”</p>
-<p>Ned was relieved. He had been concerned as soon as they had mentioned Holly.
-He knew she&#8217;d had her run-ins with law enforcement before, but she was a good
-kid &#8211; he didn&#8217;t want anything bad to happen to her. It looked like the police
-officers just needed&nbsp;information.</p>
-<p>“Yeah, she was probably talking about Holly. She works here. She knows a lot
-of the guys that live around here. I go out with her and talk to them every
-once in awhile. Maybe I can help you&nbsp;out.”</p>
-<p>Ames had already taken the Polaroid out of his pocket and thrust it into
-Ned&#8217;s hand. He peered into it. It was a grisly photograph &#8211; the man in it was
-obviously&nbsp;dead.</p>
-<p>“Yeah, Holly&#8217;s talked to him a couple of times. He&#8217;s stopped by when she
-brings pizza or hot chocolate or something, but I don&#8217;t know if she knows
-anything more than what he does and where he works &#8211; on the street, I mean.
-None of these guys have real jobs.” He handed the photo back to Ames&nbsp;.</p>
-<p>“Tell you what, I think Holly just took a break. She might be out back
-smoking or something. I can take you out there if you&#8217;d like.” He wanted to be
-there when they talked to her &#8211; he could keep an eye on things and make sure
-they hadn&#8217;t been lying to him about why they wanted to talk to&nbsp;her.</p>
-<p>Bob approached from the back of the store, smile pasted on his pale face as
-always. “Hey Ned, you called? What do you&nbsp;need?”</p>
-<p>Cobb spoke up before Ned had a chance to answer. “Well, your employee here
-has been kind enough to help us out. We&#8217;ll let you know if you need anything
-else.” He flashed his badge again. A confused expression clouded Bob&#8217;s face,
-but he replaced it quickly with his award-winning smile and&nbsp;nodded.</p>
-<p>Ned grinned to himself. It was satisfying to see the cops put Bob is his
-place. Bob was too used to having things under his control, to being the
-ultimate decision maker. But the cops didn&#8217;t even give him a second glance as
-Ned led them to the back of the&nbsp;store.</p>
-<p>As Ned had expected, Holly was standing outside in the back parking lot, a
-lit cigarette between her lips. She smiled as Ned and the cops joined her on
-the sidewalk. Cobb lit another cigarette and smoked while Ames explained the&nbsp;situation.</p>
-<p>Holly&#8217;s eyes teared upon inspection of the Polaroid. “Yeah, this is Darryl.
-He&#8217;s really friendly. Such a great guy.” She cried harder, and Ned put his arm
-around&nbsp;her.</p>
-<p>“I&#8217;m sorry ma&#8217;am. Do you happen to know anyone who would have wanted to kill&nbsp;him?”</p>
-<p>Holly nodded, still crying softly. “Oh no, not at all. I mean, every once in
-awhile somebody&#8217;d get huffy with him for cleaning their windshield, but Darryl
-just let it go. I can&#8217;t imagine him doing anything to anyone that&#8217;d make them
-want to kill&nbsp;him.”</p>
-<p>Ames looked at Cobb, who signaled their departure by flicking his half-
-finished cigarette to the ground. “Thank you, ma&#8217;am. And again, we&#8217;re sorry.”
-The detectives made their way towards the back entrance to the&nbsp;store.</p>
-<p>“Wait!” Holly called softly. She ran up, tears still in her eyes. “Some of
-the guys have been talking lately about something. Something that has them all
-scared. They were saying that sometimes, one guy disappears for a night, then
-shows up the next day all bruised and beat up. It happened to Darryl one time.
-I tried to talk to him about it, but he wouldn&#8217;t tell me what had happened.
-But everybody seems nervous about it these days. Even the homeless guys try to
-stay in pairs now, just to be safer. Maybe it has something to do with that, I
-don&#8217;t&nbsp;know.”</p>
-<p>Ames and Cobb thanked her again and continued on into the store. Holly was
-still crying as Ned put his arm around her&nbsp;again.</p>
-<p><strong>Chapter 13: Beat&nbsp;Down </strong></p>
-<p>Mike&#8217;s vision focused slowly as he stormed into the room, yelling wildly.
-His own voice was soon drowned out by Marie, shrieking maniacally at the top
-of her lungs, and by that of a man as he jumped free from his position on top
-of her and rolled off the side of the&nbsp;bed.</p>
-<p>Marie clutched the sheets around her naked body and continued to shriek on
-the bed, a fearful look in her eyes. Mike&#8217;s hands were still tightly grasping
-the bat, and he ignored her screaming as he scanned the room for the man. He
-moved around to the left side of the bed, where the man was cowering next to
-the night table, holding his hands in front of his nude, trembling body in an
-attempt to shield&nbsp;himself.</p>
-<p>Well, this was an interesting development. He glanced around the room in an
-effort to discredit the conclusion he already knew to be true. The room was in
-perfect condition, just like the rest of the house; no, Marie had <em>let</em> this
-bastard into the&nbsp;house.</p>
-<p>Marie regained her composure to some degree and shouted, both in fear and
-anger, “Mike, what the hell are you&nbsp;doing?”</p>
-<p>Mike&#8217;s mission now seemed clear. His job was gone, Angelo was going to kill
-him, and Marie was cheating on him; with this pasty-faced bastard, no less. He
-couldn&#8217;t do anything about the job or Angelo, but he&#8217;d be damned if he was
-going to let her get away with this. She was going to&nbsp;pay.</p>
-<p>The weakness he&#8217;d been feeling on his trip home was now fading, replaced by
-the familiar rage that fueled all his best work. He was starting to feel
-normal again &#8211; in control. But this time was going to be different. He wasn&#8217;t
-going to stomp around, screaming vulgarities and throwing things around the
-room. This time he was going to do it fucking <em>right</em>.</p>
-<p>Mike glanced back at Marie, a strange stillness in his eyes. He replied
-icily, eyes staring blankly into the distance, “I&#8217;m fuckin&#8217; killing your
-boyfriend, that&#8217;s what I&#8217;m&nbsp;doing.”</p>
-<p>He swung the bat down forcefully, striking the pale, sweating man on the
-left side. His arm crumpled as he cried out in pain. He scrambled towards the
-bed, looking for shelter, but Mike bent down, grabbed his ankle, and pulled
-him out one handed. With his other hand he swung the bat again, hitting his
-target just between the shoulder&nbsp;blades.</p>
-<p>The man gasped, then went limp, and Mike struck again, with both hands this
-time. The man&#8217;s body was unresponsive, and in his subconscious Mike realized
-that he was either dead or knocked out, but the beating&nbsp;continued.</p>
-<p>Marie jumped from the bed onto his back, screaming nonsensically at him and
-pounding weakly at him with her fists. The man groaned unexpectedly and Mike
-smiled inwardly at the realization that he wasn&#8217;t dead <em>yet</em>. The beating
-could&nbsp;continue.</p>
-<p>He grabbed Marie&#8217;s arm and swung her off his shoulder, then clutched her
-towards him and threw her hard towards the left closet door. She smashed
-awkwardly into the full-length mirror there, sending fireworks of sunlight
-from the early afternoon sun around the room, and landed in a heap of broken
-glass, broken skin, and&nbsp;tears.</p>
-<p>Mike smiled at her. “That&#8217;s right, bitch,” he spoke smoothly, resuming his
-swings with the bat. The man was now in a fetal position below him, moaning
-softly. Bruises had already started to form on his legs and back, and his
-disfigured arm gushed blood where white bone jutted incongruently out of his
-pasty&nbsp;skin.</p>
-<p>Mike pounded on him mercilessly with the bat, paying special attention to
-his broken arm and now purple back, then abruptly dropped to his knees and
-continued with his own fists, focusing on the face and neck. His own blood
-mixed with the man&#8217;s as the cuts on his knuckles reopened. He raised his hand
-for another blow, and without warning, stopped short, instead grabbing the bat
-again and standing slowly&nbsp;up.</p>
-<p>The tip of the bat was smeared a dark crimson now, and flecks of a similar
-color dotted the sheets and bed surrounding the crumpled body of the man. Mike
-smiled coldly, satisfied with his work. He looked over at Marie, where small
-rivulets of her own blood ran along the glass pathways on the clean hardwood
-floor, fueled by constant drops from fresh cuts on her back, legs and
-buttocks. She caught his cold stare from behind a shroud of matted, blood-
-flecked&nbsp;hair.</p>
-<p>Mike turned and threw the bat at her feet. Its noisy clatter was drowned out
-by her own surprised shriek, and she scrambled away quickly, leaving a broad
-swath of crimson in her&nbsp;path.</p>
-<p>Mike reached down and picked up the telephone on the night table, throwing
-it at her. “You&#8217;d better call 911, Marie. I think your boyfriend needs to see
-a doctor.” With that, he turned and strode quickly out of the room, down the
-stairs, and into the&nbsp;kitchen.</p>
-<p>He stopped at the sink, running cold water over his own wounded hands. The
-white of his own knuckles shone through as the blood washed away. He saw
-Marie&#8217;s purse in it&#8217;s customary position on the kitchen counter, and he swung
-it over his shoulder as he walked to the&nbsp;garage.</p>
-<p>Marie wouldn&#8217;t be needed her <span class="caps">SUV</span> &#8211; he might as well take it. It was really
-his anyway, he&#8217;d paid for it. The angry adrenaline surged pleasantly through
-him as he pressed the garage door button. Sunlight streamed brightly into the
-dark garage as the door opened. <em>What a beautiful day</em>, he thought. He pulled
-out slowly onto the street, and continued on through the path of finely
-manicured lawns, stone yard fountains, and hedge art. It was time to go see&nbsp;Angelo.</p>
-                                                            </article>
-            </div>                                                <div class="row">
-            <div class="post-info two columns">
-            <div class="post-date">
-                                    <div class="month">NOV</div>
-                    <div class="day">11</div>
-                    <div class="year">2004</div>
-                    <div class="permalink">
-                        <a href="/2004/11/november-10th/"
-                           title="Permanent link to 'November 10th'">∞</a>
-                    </div>
-                            </div>
-                                        <ul class="tags">
-                                            <li><a href="/tag/novel">novel</a>
-                        </li>
-                                            <li><a href="/tag/nanowrimo">nanowrimo</a>
-                        </li>
-                                    </ul>
-                    </div>
-                            <article class="post-content ten columns">
-                <time datetime="2004-11-11 PST"
-                      pubdate=""></time>
-                <header>
-                    <h1>
-                        <a href="        /2004/11/november-10th/">November 10th</a>
-                                            </h1>
-                </header>
-                                    <p><strong>Chapter 11:&nbsp;Debt</strong></p>
-<p>Mike came to propped up against the side of the tower. His head hurt. It
-took him a few moments to remember what he was doing there. He was vaguely
-conscious of a uniformed security guard standing just inside the tower door,
-peering out the window at him. As he looked back at the man, the security
-guard raised his walkie talkie to his mouth, uttered a few words, and turned
-away from&nbsp;Mike.</p>
-<p>The two security men who&#8217;d escorted Mike out of the tower hadn&#8217;t known what
-to do with his unmoving body. It wasn&#8217;t uncommon for them to drag a recently
-fired employee out of the office, but they had always stayed&nbsp;conscious.</p>
-<p>Mike collected his muddy thought, rubbed his head and slowly stood up. The
-adrenaline that had fueled his angry tirade earlier was now gone, and the
-realization that he was in deep shit had fully sunk in, leaving his mouth dry,
-his head aching, and his knees&nbsp;weak.</p>
-<p>He was dizzy. What was he going to do? He tried to ignore it, but the
-thought of what Angelo was going to do to him kept coming back. He had needed
-that bonus! He willed himself to get angry again &#8211; to muster up the chemicals
-in his brain that would restore him to his normal self &#8211; but nothing would
-come. He was too tired. He wanted to sleep for a very long time. In his
-dejection he found it strangely humorous that he would soon get his wish; when
-Angelo found out he didn&#8217;t have the money, he&#8217;d make sure that Mike would be
-sleeping for a <em>very</em> long&nbsp;time.</p>
-<p>He eventually became aware of the people staring at him. He must have looked
-very awkward, staggering on his feet, blood on his shirt, hair mussy, a
-distant look in his unfocused eyes. But why did they stare? Had they never
-seen a jobless guy downtown&nbsp;before?</p>
-<p>“Screw you!” he yelled at a passing woman who&#8217;d kept her eyes on him for a
-moment too long. She jumped and scurried on along, looking back every so often
-as if she was worried he might follow&nbsp;her.</p>
-<p>Finally his head stopped swimming and he gingerly stepped off the tower
-stairs down towards the street. The security guard was there in the window
-again, no doubt ordered to keep an eye on him. He spoke into his walkie talkie
-again, and maintained his watchful gaze as Mike stepped along the street&nbsp;slowly.</p>
-<p>It occurred to Mike, as he staggered down the street, that he had no money
-for a cab on his person. He normally kept his wallet on him, but on this
-particular day he&#8217;d worn his nice Italian pants; the back pocket was far too
-small for his oversized wallet, stuffed with business cards, credit cards, and
-pictures of his wife to show potential customers. It&#8217;s large bulge in the back
-pocket of these particular pants was unsightly, not to mention uncomfortable,
-so he had placed it in the briefcase along with his files &#8211; the briefcase that
-was by now being ransacked by Maureen and her team in search of his notes on
-his new&nbsp;campaign.</p>
-<p>He reached in his pocket, feeling for his keys and cell phone &#8211; they were
-still there, along with his train pass and a few cents in loose change. At
-least he could call Marie. He fumbled with the phone a few minutes before he
-finally got the number punched in. There was no answer? She hadn&#8217;t been there
-earlier either; where was&nbsp;she?</p>
-<p>Without consciously realizing it, he&#8217;d been walking towards the State Avenue
-train station. It was just as well. He could at least ride the train up
-towards his house, then try calling Marie again and hope she would answer. She
-could pick him up at the&nbsp;station.</p>
-<p>As he approached the platform, he reached in his pocket and quickly counted
-the change he had. He was 50 cents short of what he needed to get back up&nbsp;north.</p>
-<p>He sighed, defeated, realizing the sick sense of humor the universe must
-have. He began to ask passersby if they could help him out with a little
-change, but they shrugged him off and hurried by. Why didn&#8217;t they believe his
-story? He wasn&#8217;t a degenerate &#8211; he was an important man! And he only needed 50
-cents! It wasn&#8217;t a big deal! The irony was not entirely lost on him as he
-remembered the earlier events of the morning. referring back to beggar story
-with Mike, need to addYes, the universe had a sick sense of&nbsp;humor.</p>
-<p>After several unsuccessful attempts at soliciting assistance, and a couple
-of close scrapes with a public transportation employee who seemed to enjoy
-pointing ominously at the small signs posted around the station that read,
-“Solicitation Prohibited,” Mike tried a new approach. He checked around the
-vending machines at the station, poking his finger into the change return and
-fishing under the machine with his hands. His efforts yielded two dimes, three
-nickels, and a collection of pennies, which he exchanged with the public
-transportation employee for additional nickels and&nbsp;dimes.</p>
-<p>Before long, he had the requisite 50 cents and found himself on a northbound
-train, heading home. He was emotionally drained. Hopelessness enveloped him,
-and he tried to sleep, but was constantly plagued by nightmares of Angelo&#8217;s
-response to Mike&#8217;s explanation of why he didn&#8217;t have the&nbsp;money.</p>
-<p>It had all started two months ago, when Mike was riding high on the success
-of another of his accounts. This account was much, much smaller than Richmond,
-but the campaign he&#8217;d designed had worked considerably well, and he felt the
-need to celebrate that fact in some&nbsp;way.</p>
-<p>He had overheard a conversation in the office regarding a horse that was “a
-sure thing.” Mike had never thought of himself as a gambler, though others
-would no doubt have termed him that, but when thinking about just how to
-celebrate his recent victory at Copeland, a sizable bet on a “sure thing”
-seemed to be just the thing. There were few things more exciting to Mike than
-watching money turn into more money (this was an important thing in
-advertising &#8211; it was his job to turn a client&#8217;s advertising budget into
-revenues), and his cursory research into the horse, named Day Tripper,
-indicated that he had a good chance to do well with his bet. His own research
-coupled with the overheard office discussion made his decision decisively&nbsp;simple.</p>
-<p>He had called up Angelo, whose number had been collecting dust in his
-Rolodex, and put a sizable bet on Day Tripper to win. Angelo had been more
-than happy to take Mike&#8217;s bet, reminding him again of the debtor&#8217;s obligations
-to his creditor. Mike had brushed it off; Day Tripper was a sure thing &#8211; it
-was money in the&nbsp;bank.</p>
-<p>That was when things started to go wrong. Day Tripper had lost miserably,
-and the following day at Copeland he was informed that his client had
-misreported their revenue from the last campaign, and the ads weren&#8217;t doing as
-well as they had initially thought. Mike had had his first and only out of
-body experience at that point, and upon returning to normal, had proceeded to
-throw random objects around the office and threaten to fire each and every
-person on his&nbsp;team.</p>
-<p>Angelo, of course, was pleased with the outcome, and was sickeningly calm
-and collected when he phoned Mike to inquire about payment. Mike was in for a
-lot, and without the expected bonus from that recent campaign, he didn&#8217;t even
-have the money he&#8217;d put up, let alone enough to cover the juice Angelo was
-already&nbsp;running.</p>
-<p>Angelo had been more than happy to extend Mike&#8217;s repayment period; after
-all, the interest went straight to his pocket. He had, of course, informed
-Mike in no simple terms the extreme regret he&#8217;d feel if he didn&#8217;t pay the
-money back when it was&nbsp;due.</p>
-<p>Mike had readily agreed &#8211; he figured he could get the money somehow &#8211; he
-would have done anything to get Angelo off his back for the time being. And
-when the Richmond guys said they were looking at renewing their contract, Mike
-was confident that the bonus would pay his debt and leave plenty left over for
-a little celebration. As the bonus began to seem more and more a reality,
-Angelo and the debt were demoted to the back corners of Mike&#8217;s&nbsp;thoughts.</p>
-<p>But now, it was all he could think about. Mike didn&#8217;t know exactly what
-Angelo was capable of, but he knew enough to worry. Angelo wasn&#8217;t the kind of
-guy you could look up in the yellow pages. Mike had a need to be discreet
-about his gambling; that&#8217;s why he went through Angelo in the first place. He
-had never anticipated actually having Angelo hunt him&nbsp;down.</p>
-<p>He couldn&#8217;t decide whether he should call Angelo and let him know he
-wouldn&#8217;t have the money, or wait for Angelo to wonder where he was and send
-someone for him. Either way, the outcome would be the same. He shook his head,
-trying to shake off the uneasiness and worry that plagued him. Well, no matter
-what, he was going home now. He was going to drink a large glass of scotch –
-perhaps the whole bottle &#8211; and accept Marie&#8217;s soft, tender arms around his
-neck to comfort him. And then, perhaps&#8230; well, he would have to&nbsp;wait.</p>
-<p>Then he would figure out what to do. The alcohol and Marie would help to
-calm him down; it would clear his head, it would make everything better. Then,
-and only then, would he be able to make a rational decision, to do the right&nbsp;thing.</p>
-<p>As the train passed by the Allerton station, he looked out towards the
-highway, hoping to catch a glimpse of his car. It wasn&#8217;t there. He sighed; it
-had probably been towed to the city impound, which meant he&#8217;d have to pay to
-get it back. It was surprising how quickly something as small as an impound
-fee could become a financial&nbsp;burden.</p>
-<p>The train pulled up to the far north station &#8211; his station &#8211; and he stood
-up, head still swimming somewhat from his earlier bout with unconsciousness.
-He phoned Marie as he stepped out of the nearly empty train; she still wasn&#8217;t
-picking up. Her lack of attentiveness to his needs, whether she knew they
-existed or not, was starting to wear on him. She was his wife, dammit! What
-the hell was she&nbsp;doing.</p>
-<p>The few cents in his pocket had not, unfortunately, transformed into more
-during the trip, so he was still unable to afford a cab. He had no choice but
-to continue on foot. He called Marie at about every block, but she never
-answered. Eventually he started getting busy signals; was she there, and
-simply ignoring him? That&nbsp;bitch!</p>
-<p>The mile-long walk to his home went by quickly. He had too much on his mind
-to feel the growing blisters on his feet, cramped inside the Italian leather
-shoes; too much to feel the throbbing pain of the reopened wound on his hand,
-now oozing blood&nbsp;again.</p>
-<p>The house was dark and quiet when he reached the front door. He grabbed his
-key from his pocket, and inserted it into the deadbolt. As he pushed the key
-in, the door swung open silently; it was unlocked. Something was wrong &#8211; the
-door was never unlocked. Marie was obsessive about security &#8211; the only reason
-the door would have been unlocked&nbsp;was&#8230;</p>
-<p>He bolted into the room, looking around frantically. Nothing seemed out of&nbsp;place.</p>
-                                                            </article>
             </div>                        </div>
     <div class="row archives">
         <div class="twelve columns post-links">
@@ -1311,7 +1130,7 @@ the door would have been unlocked&nbsp;was&#8230;</p>
         </div>
     </div>
 </section>
-                    <section id="sidebar" class="three columns">                    <section>
+                            <section id="sidebar" class="three columns">                        <section>
     <div>
         <p>I'm <a href="/about">Tyler Butler</a>: a big man with small dogs.</p>
         <hr/>
@@ -1327,7 +1146,6 @@ the door would have been unlocked&nbsp;was&#8230;</p>
         <ul>
             <li><a href="http://twitter.com/tylerbutler">twitter</a></li>
             <li><a href="http://github.com/tylerbutler">github</a></li>
-            <li><a href="http://bitbucket.org/tylerbutler">bitbucket</a></li>
         </ul>
     </div>
 </section>
@@ -1342,16 +1160,13 @@ the door would have been unlocked&nbsp;was&#8230;</p>
             </form>
         </div>
     </section>
-            <section class="twitter">                <h1>Latest Tweets</h1>
-                <div class="tweet">
-                </div>
-            </section>
                     </section>
-        </div>
-    <div class="row">            <footer class="twelve columns centered">                    <p>&copy; 2002-2012 Tyler Butler. All rights reserved.</p>
+            </div>
+        <div class="row">                <footer class="twelve columns centered">                        <p>&copy; 2002-2013 Tyler Butler. All rights reserved.</p>
 
-<p>Powered by <a href="http://www.tylerbutler.com/projects/engineer">engineer</a>.</p>                </footer>
-        </div>
+<p>Powered by <a href="http://www.tylerbutler.com/projects/engineer">engineer</a>.</p>                    </footer>
+            </div>
+    </div>
                 <script src="/static/engineer/lib/foundation/javascripts/foundation.js"></script>
         
     

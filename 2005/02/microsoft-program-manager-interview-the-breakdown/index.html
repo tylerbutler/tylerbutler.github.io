@@ -1,24 +1,25 @@
-<!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en"> <!--<![endif]-->
+<html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Set the viewport width to device width for mobile -->
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>    Microsoft Program Manager Interview: The Breakdown    : Tyler Butler
 </title>
 
                     
-    <link rel="alternate" type="application/rss+xml"
-          title="Tyler Butler RSS Feed"
+    <link rel="alternate" type="application/atom+xml"
+          title="Tyler Butler Atom Feed"
           href="http://feeds.feedburner.com/TylerButlerAllPosts"/>
 
+                
                                                         <link rel="stylesheet"
                       href="/static/engineer/lib/foundation/stylesheets/grid.css">
                 <link rel="stylesheet"
@@ -35,11 +36,12 @@
                 
                                     
             <script type="text/javascript"
-            src="http://use.typekit.com/vty2qol.js"></script>
+            src="http://use.typekit.net/vty2qol.js"></script>
     <script type="text/javascript">
         try {
             Typekit.load();
-        } catch (e) {
+        }
+        catch (e) {
         }
     </script>
     
@@ -59,49 +61,40 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>    
-                
+                        <script src="/static/engineer/lib/modernizr-2.6.2.min.js"
+                    type="text/javascript"></script>
+            
             <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
             <script>
-                window.jQuery || document.write('<script src="/static/engineer/lib/jquery-1.7.1.min.js"><\/script>')
+                window.jQuery || document.write('<script src="/static/engineer/lib/jquery-1.10.2.min.js"><\/script>')
             </script>    
-                                        <script type="text/javascript" src="/static/engineer/lib/tweet/tweet/jquery.tweet.js"></script>
-                <script type='text/javascript'>
-                    jQuery(function ($) {
-                        $(".tweet").tweet({
-                            username:'tylerbutler',
-                            join_text:null,
-                            avatar_size:null,
-                            retweets:false,
-                            count:4,
-                            loading_text:"loading tweets...",
-                            template:"{text}{time}"
-                        });
-                    });
-                </script>
-                        
-    <!-- IE Fix for HTML5 Tags -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body class="">    <div class="container">        <header id="primary" class="row">                                    <h1 class="five columns">
-                        <a href="/">tyler
-                                <span class="highlight">butler</span>
-                            </a>
-                    </h1>
-                                            <nav class="seven columns">                        
-<ul>
-                    <li class="current">
+<body class=""><!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->    <div class="container">            <header id="primary" class="row">                                            <h1 class="five columns">
+                            <a href="/">                                    tyler
+                                    <span class="highlight">butler</span>
+                                </a>
+                        </h1>
+                                                        <nav class="seven columns">                            <ul class="nav navbar-nav">
+    
+                <li class="current">
         <a href="/">articles</a></li>
-                    <li>
+                <li>
         <a href="/projects">projects</a></li>
-    </ul>
+</ul>
 
-                    </nav>
-            </header>
-    <div class="row">            <section id="main" class="twelve columns"
-                     role="main">    <div class="row">
+                        </nav>
+                </header>
+        <div class="row">                <section id="main" class="twelve columns"
+                         role="main">    <div class="row">
             <div class="post-info two columns">
             <div class="post-date">
                                     <div class="month">FEB</div>
@@ -223,9 +216,9 @@
 <h2><a name="cms3"></a>Content Management Server Team &#8212; Jim Masson &#8212; 3:15 pm&nbsp;<span class="caps">PST</span></h2>
 <p>Jim got right down to business, I think because I was an unexpected interview for him, and he didn&#8217;t have much time. He told me a little about himself, then set up the following&nbsp;scenario:</p>
 <blockquote>
-<p>My grandmother and I both have lots of digital photos. I am a conscientious computer user and I regularly back up, but my grandmother doesn&#8217;t. However, we&#8217;d both be equally heartbroken if we lost our photos because of some sort of computer failure. How do we make it easy for my grandmother to back up her&nbsp;photos.</p>
+<p>My grandmother and I both have lots of digital photos. I am a conscientious computer user and I regularly back up, but my grandmother doesn&#8217;t. However, we&#8217;d both be equally heartbroken if we lost our photos because of some sort of computer failure. How do we make it easy for my grandmother to back up her&nbsp;photos?</p>
 </blockquote>
-<p>I did the typical clarify the problem approach, then started writing on the board. I tried to fit it in to a format the Microsoft is fond of: the wizard. So I designed the &#8220;Photo Migration Wizard.&#8221; I divided the entire process into four major steps, then defined each step clearly. One thing I did not explain was that this was intended to be an iterative process &#8212; after the initial run of the wizard, it should be a quick and painless process to run it again and update the backup. Some highlights from the design I came up with were that it should be able to export to multiple volumes (ie, multiple <span class="caps">CD</span>&#8217;s), then import from just a subset of those <span class="caps">CD</span>&#8217;s (in case you lose one), robust import options, scheduled running, tying in with online backup service of some kind, etc. Jim asked me to go into greater detail, including the <span class="caps">UI</span> screen shots, of the importing process, and also asked to consider other usage options for the feature. This led to me brainstorming about photo recovery options if you accidentally delete a photo, and simple comparison functions to compare existing photos to the version in the backup&nbsp;archive.</p>
+<p>I did the typical clarify the problem approach, then started writing on the board. I tried to fit it in to a format that Microsoft is fond of: the wizard. So I designed the &#8220;Photo Migration Wizard.&#8221; I divided the entire process into four major steps, then defined each step clearly. One thing I did not explain was that this was intended to be an iterative process &#8212; after the initial run of the wizard, it should be a quick and painless process to run it again and update the backup. Some highlights from the design I came up with were that it should be able to export to multiple volumes (ie, multiple <span class="caps">CD</span>&#8217;s), then import from just a subset of those <span class="caps">CD</span>&#8217;s (in case you lose one), robust import options, scheduled running, tying in with online backup service of some kind, etc. Jim asked me to go into greater detail, including the <span class="caps">UI</span> screen shots, of the importing process, and also asked to consider other usage options for the feature. This led to me brainstorming about photo recovery options if you accidentally delete a photo, and simple comparison functions to compare existing photos to the version in the backup&nbsp;archive.</p>
 <p>I came away from the interview refreshed because I felt like I had offered a robust solution, and a couple of times I mentioned features that seemed to surprise Jim, so this served to re-energize&nbsp;me.</p>
 <p>Next up was Dieter from the Project Team. I never got fully introduced to him, so I don&#8217;t know his last name. This was my final interview&nbsp;on-site.</p>
 <h2><a name="project"></a>Project Team &#8212; Dieter &#8212; 4:00 pm&nbsp;<span class="caps">PST</span></h2>
@@ -237,7 +230,7 @@
 <p>Dieter walked me to Building 19, I checked out with the receptionist, then headed back to my hotel room. I was pretty tired, but desperately needed food. I browsed the web for a bit and found a nice-looking steakhouse, and was almost ready to go when Ron gave me a call to&nbsp;debrief.</p>
 <h2><a name="debrief"></a>Debrief &#8212; Rondell Honcoop &#8212; 5:45 pm&nbsp;<span class="caps">PST</span></h2>
 <p>Ron basically wanted to go over the day and how I felt things went. He asked me if I had gotten answers for my questions, and wanted to know how Microsoft stacked up against Google post-interview. Honestly, I was pretty impressed with the whole interview process and the people I had met, so I told him honestly that they were at the front now. He encouraged me to let him know if I had questions, and I got permission from him to follow-up if I hadn&#8217;t heard anything from him by Friday (which ended up being overkill, because I got an offer the next&nbsp;day). </p>
-<p>I came out of the interview pretty confident that I would get an offer. I felt that I had done a very good job during the whole process, and was excited to hear what they would say. In the end they have made a very generous offer and I am happy to say that I accepted. Anyway, I hope that the information continued here will be of some use to you as you pursue employment at&nbsp;Microsoft.</p>
+<p>I came out of the interview pretty confident that I would get an offer. I felt that I had done a very good job during the whole process, and was excited to hear what they would say. In the end they have made a very generous offer and I am happy to say that I accepted. Anyway, I hope that the information contained here will be of some use to you as you pursue employment at&nbsp;Microsoft.</p>
                                                                                                                 
                     <div class="row">
                         <div class="twelve columns post-links">
@@ -253,11 +246,12 @@
                     </div>
                                             </article>
             </div></section>
-        </div>
-    <div class="row">            <footer class="twelve columns centered">                    <p>&copy; 2002-2012 Tyler Butler. All rights reserved.</p>
+            </div>
+        <div class="row">                <footer class="twelve columns centered">                        <p>&copy; 2002-2013 Tyler Butler. All rights reserved.</p>
 
-<p>Powered by <a href="http://www.tylerbutler.com/projects/engineer">engineer</a>.</p>                </footer>
-        </div>
+<p>Powered by <a href="http://www.tylerbutler.com/projects/engineer">engineer</a>.</p>                    </footer>
+            </div>
+    </div>
                 <script src="/static/engineer/lib/foundation/javascripts/foundation.js"></script>
         
     
